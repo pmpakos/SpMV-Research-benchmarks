@@ -7,6 +7,7 @@ Every time new measurements are added here, they have to be filtered first.
 Regarding "validation" matrices:
 From the csv files with the collected benchmarks, we want to combine them in one common final csv file. Towards this, use the bash script in the "parse_cpu_validation" directory, editing appropriately for the desired device.
 
+---
 
 DEPRECATED (this is fixed in the 'results_visualization' notebook called 'benchmark_aggregation')
 
