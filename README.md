@@ -2,11 +2,13 @@
 To be used alongside the [SpMV-Research](https://github.com/cslab-ntua/SpMV-Research) repository.
 The .gitignore has to contain all the 'aggregating' csv files that collect measurements from all possible formats for each device. Remember to edit it accordingly each time a new machine is added.
 
-Every time new measurements are added here, they have to be filtered first. 
+Every time new measurements are added here, they have to be filtered first. This filtering is performed in the "benchmark_aggregation" notebooks.
 
-Regarding "validation" matrices:
-From the csv files with the collected benchmarks, we want to combine them in one common final csv file. Towards this, use the bash script in the "parse_cpu_validation" directory, editing appropriately for the desired device.
+Regarding the "validation" (real) matrices, when we collect results for them, separate csv files are created for each format tested. From the csv files with the collected benchmarks, we want to combine them in one common final csv file. Towards this, use the bash script in the "benchmark_results/parse_cpu_validation" directory, editing appropriately for the desired device.
 
+Follow instructions in "results_visualization" directory on how to use the notebooks.
+
+<!-- 
 ---
 
 DEPRECATED (this is fixed in the 'results_visualization' notebook called 'benchmark_aggregation')
@@ -17,3 +19,4 @@ intel-icy3
 	|
 	-> synthetic1 (original csv files)
 	-> synthetic_new1 (where edited csv files will be stored)
+ -->

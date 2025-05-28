@@ -28,8 +28,8 @@ results_visualization/Paper_plots2
 results_visualization/New_plots
 results_visualization/*_validation_vs_best_friend_APE.csv
 results_visualization/*_validation_vs_friends_MAPE.csv
-results_visualization/feats_friends.csv
-results_visualization/feats_synthetic.csv
+# results_visualization/feats_friends.csv
+# results_visualization/feats_synthetic.csv
 results_visualization/synthetic_benchmarks_all-devices_all*.csv
 results_visualization/synthetic_benchmarks_all-devices_best-of*.csv
 results_visualization/validation_friends_benchmarks_all-devices_all*.csv
