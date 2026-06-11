@@ -1,0 +1,11 @@
+NVIDIA-H100_Matrix,NVIDIA-H100_Error(%),AMD-MI250_Matrix,AMD-MI250_Error(%),AMD-EPYC-64_Matrix,AMD-EPYC-64_Error(%),INTEL-SAPPHIRE-56_Matrix,INTEL-SAPPHIRE-56_Error(%),ARM-GRACE-72_Matrix,ARM-GRACE-72_Error(%)
+eu-2005,48.1,sx-stackoverflow,78.3,sx-stackoverflow,223.3,com-Youtube,61.7,soc-LiveJournal1,61.9
+Stanford_Berkeley,41.5,cop20k_A,61.7,com-Youtube,165.8,TSOPF_RS_b300_c3,55.5,radiation,51.7
+cop20k_A,28.7,com-Youtube,54.3,kron_g500-logn18,90.0,roadNet-TX,52.5,rajat31,47.0
+in-2004,21.4,eu-2005,53.6,in-2004,69.8,dgreen,43.1,com-Youtube,39.5
+rajat30,19.1,kron_g500-logn18,46.9,eu-2005,66.5,in-2004,34.2,ASIC_680k,38.5
+circuit5M,14.8,in-2004,45.0,webbase-1M,46.1,rajat31,32.7,rajat30,38.5
+soc-LiveJournal1,14.3,delaunay_n22,41.6,Chebyshev4,45.2,ASIC_680k,32.7,dgreen,32.7
+sx-stackoverflow,14.2,wikipedia-20051105,40.2,ASIC_680k,40.1,kron_g500-logn18,26.7,Si41Ge41H72,25.2
+ASIC_680k,14.1,Stanford_Berkeley,38.6,CurlCurl_2,39.4,rail4284,26.6,cop20k_A,25.0
+radiation,13.8,circuit5M,36.7,wikipedia-20051105,39.2,mac_econ_fwd500,26.2,Ga41As41H72,24.9
