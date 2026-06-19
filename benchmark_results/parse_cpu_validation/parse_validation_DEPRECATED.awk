@@ -129,17 +129,12 @@ function find_mem_range(mem, str)
     m = tok[3]
     n = tok[4]
     nnz = tok[5]
-    # nnz_matrix = tok[6]
-    # symmetry = tok[7]
-    time = tok[8]
-    # time_iter_min = tok[9]
-    # time_iter_median = tok[10]
-    # time_iter_max = tok[11]
-    gflops = tok[12]
-    mem_footprint = tok[13]
-    w_avg = tok[14]
-    j_estim = tok[15]
-    format = tok[16]
+    time = tok[6]
+    gflops = tok[7]
+    mem_footprint = tok[8]
+    w_avg = tok[9]
+    j_estim = tok[10]
+    format = tok[11]
     # printf("threads %s, m %s, n %s, nnz %s, time %s, gflops %s, mem_footprint %s, w_avg %s, j_estim %s, format %s\n", threads, m, n, nnz, time, gflops, mem_footprint, w_avg, j_estim, format)
 
     if (threads != THREADS)

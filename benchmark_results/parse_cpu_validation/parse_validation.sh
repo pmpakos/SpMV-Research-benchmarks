@@ -77,6 +77,7 @@ data=(
     # "./grace1-arm/csr_vector_sve_d.csv                              ./grace1-arm_validation_matrices Custom_CSR_BV_SVE ARMGrace 72"
     # "./grace1-arm/merge_d.csv                                       ./grace1-arm_validation_matrices MERGE ARMGrace 72"
     # "./grace1-arm/sparsex_d.csv                                     ./grace1-arm_validation_matrices SparseX ARMGrace 72"
+    "./grace1-arm/armpl_f.csv                                       ./f_grace1-arm_validation_matrices ARMPL ARMGrace 72"
 
     # "./grace1-H100/csr5_cuda_nv_d.csv                                ./grace1-H100_validation_matrices CSR5_CUDA H100 72"
     # "./grace1-H100/csr_cuda_adaptive_b256_mb1_nv_d.csv               ./grace1-H100_validation_matrices Custom_CSR_CUDA_ADAPTIVE_b256_1 H100 72"
@@ -86,20 +87,21 @@ data=(
     # "./grace1-H100/cusparse_csr_nv_d.csv                             ./grace1-H100_validation_matrices CUSPARSE_CSR H100 72"
     # "./grace1-H100/dasp_cuda_nv_d.csv                                ./grace1-H100_validation_matrices DASP_CUDA H100 72"
     # "./grace1-H100/merge_cuda_nv_d.csv                               ./grace1-H100_validation_matrices MERGE_CUDA H100 72"
+    "./grace1-H100/cusparse_csr_nv_f.csv                             ./f_grace1-H100_validation_matrices CUSPARSE_CSR H100 72"
 
-    "./intel-sapphire/aocl_optmv_d.csv                               ./intel-sapphire_validation_matrices AOCL_OPTMV IntelSapphire 56"
-    "./intel-sapphire/csr5_d.csv                                     ./intel-sapphire_validation_matrices CSR5 IntelSapphire 56"
-    "./intel-sapphire/csr_d.csv                                      ./intel-sapphire_validation_matrices Custom_CSR_B IntelSapphire 56"
-    "./intel-sapphire/csr_naive_d.csv                                ./intel-sapphire_validation_matrices Naive_CSR_CPU IntelSapphire 56"
-    "./intel-sapphire/csr_vector_x86_d.csv                           ./intel-sapphire_validation_matrices Custom_CSR_BV_x86 IntelSapphire 56"
-    "./intel-sapphire/merge_d.csv                                    ./intel-sapphire_validation_matrices MERGE IntelSapphire 56"
-    "./intel-sapphire/mkl_ie_d.csv                                   ./intel-sapphire_validation_matrices MKL_IE IntelSapphire 56"
-    "./intel-sapphire/sell_C_s_d.csv                                 ./intel-sapphire_validation_matrices SELL-32-1 IntelSapphire 56"
-    "./intel-sapphire/sparsex_d.csv                                  ./intel-sapphire_validation_matrices SparseX IntelSapphire 56"
-    "./intel-sapphire/lcm_d.csv                                      ./intel-sapphire_validation_matrices LCM IntelSapphire 56"
+    # "./intel-sapphire/aocl_optmv_d.csv                               ./intel-sapphire_validation_matrices AOCL_OPTMV IntelSapphire 56"
+    # "./intel-sapphire/csr5_d.csv                                     ./intel-sapphire_validation_matrices CSR5 IntelSapphire 56"
+    # "./intel-sapphire/csr_d.csv                                      ./intel-sapphire_validation_matrices Custom_CSR_B IntelSapphire 56"
+    # "./intel-sapphire/csr_naive_d.csv                                ./intel-sapphire_validation_matrices Naive_CSR_CPU IntelSapphire 56"
+    # "./intel-sapphire/csr_vector_x86_d.csv                           ./intel-sapphire_validation_matrices Custom_CSR_BV_x86 IntelSapphire 56"
+    # "./intel-sapphire/merge_d.csv                                    ./intel-sapphire_validation_matrices MERGE IntelSapphire 56"
+    # "./intel-sapphire/mkl_ie_d.csv                                   ./intel-sapphire_validation_matrices MKL_IE IntelSapphire 56"
+    # "./intel-sapphire/sell_C_s_d.csv                                 ./intel-sapphire_validation_matrices SELL-32-1 IntelSapphire 56"
+    # "./intel-sapphire/sparsex_d.csv                                  ./intel-sapphire_validation_matrices SparseX IntelSapphire 56"
+    # "./intel-sapphire/lcm_d.csv                                      ./intel-sapphire_validation_matrices LCM IntelSapphire 56"
 
-
-
+    "./dungani-rtx3060/cusparse_csr_nv_d.csv ./dungani-rtx3060_validation_matrices CUSPARSE_CSR RTX3060 4"
+    "./dungani-rtx3060/cusparse_csr_nv_f.csv ./f_dungani-rtx3060_validation_matrices CUSPARSE_CSR RTX3060 4"
 )
 
 
