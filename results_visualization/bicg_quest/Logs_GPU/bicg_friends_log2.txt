@@ -1,0 +1,1157 @@
+ARM_LINUX_COMPILER_INCLUDES=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//includes;BLAS_STATIC=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;ARMPL_INCLUDES_ILP64_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64_mp;SPARSEX_LIB_PATH=;ARMPL_ROOT_DIR=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc/;path_graphs_sparse_survey=/local/pmpakos/Data/graphs/graphs_sparse_survey;numa_nodes=0;BLAS_SHARED=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.so;PRINT_STATISTICS=1;ARMPL_INCLUDES_INT64=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64;CLEAR_CACHES=0;LLVM_INC_PATH=;AOCL_PATH=;GCC_ROOT_DIR=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04/;GCC_INCLUDES=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//include;GCC_BUILD=348;ARMPL_BUILD=12;SPARSEX_INC_PATH=;TBB_PATH=;max_cores=256;RAVE_EMULATION=0;COMPILER_PATH=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04/;LLVM_LIB_PATH=;DIV_STEALING_ENABLED=1;ARM_ROOT_DIR=/local/pmpakos/arm-compiler/;USE_ARTIFICIAL_MATRICES=1;MANPATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//share/man:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//share/man;ARMPL_INCLUDES=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include;ARM_LINUX_COMPILER_BUILD=9;ARMPL_INCLUDES_INT64_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64_mp;ARMPL_INCLUDES_ILP64=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64;ARMCLANG_ROOT_DIR=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04/;ARMPL_DIR=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc/;ARM_LICENSE_DIR=/local/pmpakos/arm-compiler//licences;CUDA_COMPUTE=90;ARMPL_INCLUDES_LP64_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_lp64_mp;SDV_TRACING=0;LAPACK=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;GHOST_APPS_ROOT_DIR=/local/pmpakos/SpMV-Research/benchmark_code/BENCH/src/sell-C-s;CG_MAX_NUM_ITERS=50;GCC_DIR=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04/;ARM_HPC_COMPILER_LICENSE_SEARCH_PATH=/local/pmpakos/arm-compiler//licenses;cores=72;BOOST_LIB_PATH=;ARM_LINUX_COMPILER_DIR=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04/;path_validation=/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices;K_DIM=16;output_to_files=1;force_retry_on_error=0;LIBRARY_PATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib64:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib;CUDA_PATH=/usr/local/cuda;path_tamu=/local/pmpakos/Data/graphs/tamu;GHOST_ROOT_DIR=/pfs/lustrep2/scratch/project_465000869/pmpakos/damned_directory/;DIV_PACKET_REORDERING=0;ARMPL_LIBRARIES=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib;LAPACK_SHARED=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.so;MKL_PATH=;ZFP_ROOT_DIR=/local/pmpakos/lib/zfp;SPARSEX_CONF_PATH=;DIV_VC_TOLERANCE=0;ARM_LINUX_COMPILER_LIBRARIES=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib;ROCM_PATH=;LD_LIBRARY_PATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib64:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib/clang/13.0.0/armpl_links/lib:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib;LAPACK_STATIC=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;cpu_pinning_group_size=1;path_M3E=/local/pmpakos/Data/graphs/M3E-Matrix-Collection;FPZIP_ROOT_DIR=/local/pmpakos/lib/fpzip;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71;BLAS=:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;PATH=/local/pmpakos/.local/bin:/local/pmpakos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//binutils_bin:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//bin;USE_PROCESSES=0;cpu_pinning_step=1;RAPL_REGISTERS=0;PLOT_MATRIX=0;BOOST_INC_PATH=;USE_RCM_REORDERING=0;CPATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//include:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//include:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_common;path_openFoam=;COOLDOWN=0;ARMPL_INCLUDES_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_lp64_mp;
+program: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/src/bicg_cusparse_csr_nv_d.exe
+number of matrices: 50
+max threads 72
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 170998 170998 5.60788 4.39216 normal random 0.20808 61.94716 0.80336 0.63302 14
+------------------------
+170998
+170998_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.007141
+Adding 170992 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.227734
+time warm up 0.071045
+SpMV_bufferSize = 7067 bytes
+eps = 4.13519e-13 eps_counter = 4.13519e-05
+SpMV: calls = 100, time = 0.001663 s, GFLOPs = 135.814196, WS_standalone = 16.18 MB, WS_bicg = 30.54 MB
+error = 48.73       
+170998_170998_958231_38319.8_16894.6_0.0152072_0.12123,72,170998,170998,1129223,0.021178,48.734,50,13.575241,0.000000,0.000000,CUSPARSE_CSR,170998,170998,1129223,13.575241,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 206500 206500 6.16653 4.43586 normal random 0.00191 4.70372 0.17669 0.33051 14
+------------------------
+206500
+206500_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.010367
+Adding 206496 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.212254
+time warm up 0.068158
+SpMV_bufferSize = 9255 bytes
+eps = 4.54423e-13 eps_counter = 4.54423e-05
+SpMV: calls = 100, time = 0.001763 s, GFLOPs = 167.834419, WS_standalone = 20.87 MB, WS_bicg = 38.20 MB
+error = 53.55       
+206500_206500_1272606_350.206_119.389_0.0221227_0.0496605,72,206500,206500,1479102,0.021377,53.5537,50,17.714718,0.000000,0.000000,CUSPARSE_CSR,206500,206500,1479102,17.714718,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 21200 21200 70.22491 4.4289 normal random 0.0662 0.1392 1.916 0.96302 14
+------------------------
+21200
+21200_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.005465
+Adding 21097 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.212054
+time warm up 0.067957
+SpMV_bufferSize = 9439 bytes
+eps = 1.45602e-13 eps_counter = 1.45602e-05
+SpMV: calls = 100, time = 0.001600 s, GFLOPs = 188.585862, WS_standalone = 17.67 MB, WS_bicg = 19.45 MB
+error = 17.15       
+21200_21200_1487478_1723.4_633.294_0.0574058_0.0875669,72,21200,21200,1508575,0.018014,17.1464,50,17.345146,0.000000,0.000000,CUSPARSE_CSR,21200,21200,1508575,17.345146,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 131072 131072 11.11989 3.34422 normal random 0.00743 1.06261 0.03395 0.05174 14
+------------------------
+131072
+131072_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.008139
+Adding 131061 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.212802
+time warm up 0.067789
+SpMV_bufferSize = 9935 bytes
+eps = 3.62039e-13 eps_counter = 3.62039e-05
+SpMV: calls = 100, time = 0.001727 s, GFLOPs = 183.944889, WS_standalone = 20.68 MB, WS_bicg = 31.68 MB
+error = 42.67       
+131072_131072_1457203_961.606_132.313_0.0117042_0.00333453,72,131072,131072,1588264,0.019395,42.6732,50,18.676243,0.000000,0.000000,CUSPARSE_CSR,131072,131072,1588264,18.676243,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 38744 38744 45.72894 38.39531 normal random 0.02989 1.22876 1.26263 0.85373 14
+------------------------
+38744
+38744_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.008430
+Adding 38718 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.214007
+time warm up 0.066098
+SpMV_bufferSize = 11103 bytes
+eps = 1.96835e-13 eps_counter = 1.96835e-05
+SpMV: calls = 100, time = 0.001701 s, GFLOPs = 208.744788, WS_standalone = 21.05 MB, WS_bicg = 24.30 MB
+error = 23.22       
+38744_38744_1736329_958.242_271.962_0.0488236_0.0347074,72,38744,38744,1775047,0.018357,23.2164,50,20.461601,0.000000,0.000000,CUSPARSE_CSR,38744,38744,1775047,20.461601,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 14000 14000 132.36457 36.49446 normal random 0.98354 1.22114 0.02223 0.03682 14
+------------------------
+14000
+14000_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.009585
+Adding 13874 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.210331
+time warm up 0.065127
+SpMV_bufferSize = 11667 bytes
+eps = 1.18322e-13 eps_counter = 1.18322e-05
+SpMV: calls = 100, time = 0.002051 s, GFLOPs = 181.863672, WS_standalone = 21.61 MB, WS_bicg = 22.79 MB
+error = 13.96       
+14000_14000_1851395_13743.1_236.919_0.00961866_0.00262198,72,14000,14000,1865269,0.018223,13.9642,50,21.399719,0.000000,0.000000,CUSPARSE_CSR,14000,14000,1865269,21.399719,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 525825 525825 3.99415 0.07632 normal random 0.00094 0.00146 0.4983 0.99891 14
+------------------------
+525825
+525825_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.007460
+Adding 525824 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.220359
+time warm up 0.066207
+SpMV_bufferSize = 16443 bytes
+eps = 7.25138e-13 eps_counter = 7.25138e-05
+SpMV: calls = 100, time = 0.002660 s, GFLOPs = 197.645834, WS_standalone = 40.12 MB, WS_bicg = 84.25 MB
+error = 85.46       
+525825_525825_2103300_505.766_235.326_0.0299357_0.130785,72,525825,525825,2629124,0.027010,85.4634,50,32.093803,0.000000,0.000000,CUSPARSE_CSR,525825,525825,2629124,32.093803,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 46835 46835 50.68861 27.7806 normal random 0.18777 1.30242 1.71972 0.86641 14
+------------------------
+46835
+46835_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.009254
+Adding 46782 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.216494
+time warm up 0.065319
+SpMV_bufferSize = 15119 bytes
+eps = 2.16414e-13 eps_counter = 2.16414e-05
+SpMV: calls = 100, time = 0.001927 s, GFLOPs = 250.939702, WS_standalone = 28.56 MB, WS_bicg = 32.49 MB
+error = 25.51       
+46835_46835_2371001_7354.04_3001.22_0.0171087_0.0903248,72,46835,46835,2417783,0.018726,25.5147,50,27.847996,0.000000,0.000000,CUSPARSE_CSR,46835,46835,2417783,27.847996,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 121192 121192 21.65432 13.79266 normal random 0.62306 1.91841 1.09583 0.6334 14
+------------------------
+121192
+121192_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.016773
+Adding 121173 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.215444
+time warm up 0.065678
+SpMV_bufferSize = 17159 bytes
+eps = 3.48126e-13 eps_counter = 3.48126e-05
+SpMV: calls = 100, time = 0.002379 s, GFLOPs = 230.722937, WS_standalone = 33.71 MB, WS_bicg = 43.88 MB
+error = 41.02       
+121192_121192_2622828_65112.9_20744.7_0.00524318_0.0695909,72,121192,121192,2744001,0.020195,41.0244,50,31.864914,0.000000,0.000000,CUSPARSE_CSR,121192,121192,2744001,31.864914,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 204316 204316 13.93052 1.28746 normal random 0.44461 0.4357 1.00962 0.54367 14
+------------------------
+204316
+204316_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.015654
+Adding 204299 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.214668
+time warm up 0.065837
+SpMV_bufferSize = 19071 bytes
+eps = 4.52013e-13 eps_counter = 4.52013e-05
+SpMV: calls = 100, time = 0.002632 s, GFLOPs = 231.795087, WS_standalone = 38.80 MB, WS_bicg = 55.95 MB
+error = 53.27       
+204316_204316_2845844_87972.9_20416.9_0.000341807_0.0128395,72,204316,204316,3050143,0.022373,53.2729,50,35.685524,0.000000,0.000000,CUSPARSE_CSR,204316,204316,3050143,35.685524,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 1000005 1000005 3.10552 17.74165 normal random 0.15246 1512.43391 0.31568 0.9361 14
+------------------------
+1000005
+1000005_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.018009
+Adding 1000000 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.224670
+time warm up 0.069392
+SpMV_bufferSize = 25859 bytes
+eps = 1e-12 eps_counter = 0.0001
+SpMV: calls = 100, time = 0.003629 s, GFLOPs = 227.963973, WS_standalone = 66.41 MB, WS_bicg = 150.33 MB
+error = 117.9       
+1000005_1000005_3136144_135382_75173.2_0.0245246_0.154456,72,1000005,1000005,4136144,0.031790,117.852,50,51.149132,0.000000,0.000000,CUSPARSE_CSR,1000005,1000005,4136144,51.149132,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 62451 62451 64.16844 9.83938 normal random 0.0086 0.21555 1.61575 0.91473 14
+------------------------
+62451
+62451_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.011571
+Adding 62386 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.219523
+time warm up 0.065914
+SpMV_bufferSize = 25435 bytes
+eps = 2.49902e-13 eps_counter = 2.49902e-05
+SpMV: calls = 100, time = 0.002788 s, GFLOPs = 291.832550, WS_standalone = 47.74 MB, WS_bicg = 52.99 MB
+error = 29.46       
+62451_62451_4005505_454.378_131.588_0.155678_0.060404,72,62451,62451,4067891,0.020235,29.4618,50,46.791553,0.000000,0.000000,CUSPARSE_CSR,62451,62451,4067891,46.791553,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 682862 682862 5.66992 659.80736 normal random 0.37466 72034.24946 0.66901 0.82547 14
+------------------------
+682862
+682862_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.540165
+Adding 682859 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.225103
+time warm up 0.065515
+SpMV_bufferSize = 29807 bytes
+eps = 8.26355e-13 eps_counter = 8.26355e-05
+SpMV: calls = 100, time = 0.004464 s, GFLOPs = 213.587335, WS_standalone = 67.59 MB, WS_bicg = 124.90 MB
+error = 97.39       
+682862_682862_4084929_168195_117761_0.0945245_0.292425,72,682862,682862,4767788,0.029485,97.391,50,57.167919,0.000000,0.000000,CUSPARSE_CSR,682862,682862,4767788,57.167919,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 1393383 1393383 2.75826 1.03703 normal random 0.00494 3.35056 0.21025 0.30095 14
+------------------------
+1393383
+1393383_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.024128
+Adding 1393382 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.224719
+time warm up 0.065943
+SpMV_bufferSize = 33507 bytes
+eps = 1.18042e-12 eps_counter = 0.000118042
+SpMV: calls = 100, time = 0.004524 s, GFLOPs = 236.961565, WS_standalone = 87.91 MB, WS_bicg = 204.85 MB
+error = 139.1       
+1393383_1393383_3966125_5743.62_3526.15_0.039568_0.19162,72,1393383,1393383,5359507,0.037941,139.115,50,66.650028,0.000000,0.000000,CUSPARSE_CSR,1393383,1393383,5359507,66.650028,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 36417 36417 119.30596 22.30227 normal random 0.12994 0.70989 1.83776 0.93173 14
+------------------------
+36417
+36417_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.011353
+Adding 36335 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.219795
+time warm up 0.065871
+SpMV_bufferSize = 27343 bytes
+eps = 1.90832e-13 eps_counter = 1.90832e-05
+SpMV: calls = 100, time = 0.002821 s, GFLOPs = 310.009813, WS_standalone = 50.74 MB, WS_bicg = 53.80 MB
+error = 22.49       
+36417_36417_4336875_3824.96_1378.04_0.0378263_0.0268373,72,36417,36417,4373210,0.019943,22.4944,50,50.186340,0.000000,0.000000,CUSPARSE_CSR,36417,36417,4373210,50.186340,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 42138 42138 104.73798 102.44317 normal random 0.6067 1.2941 1.92346 0.99215 14
+------------------------
+42138
+42138_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.013164
+Adding 41971 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.222885
+time warm up 0.065702
+SpMV_bufferSize = 26375 bytes
+eps = 2.05275e-13 eps_counter = 2.05275e-05
+SpMV: calls = 100, time = 0.002808 s, GFLOPs = 300.493563, WS_standalone = 49.08 MB, WS_bicg = 52.62 MB
+error = 24.19       
+42138_42138_4176699_24963.4_10306.2_0.00958151_0.0685673,72,42138,42138,4218670,0.019790,24.1868,50,48.439594,0.000000,0.000000,CUSPARSE_CSR,42138,42138,4218670,48.439594,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 68121 68121 78.94425 813.77064 normal random 0.04536 861.90012 0.89599 0.99371 14
+------------------------
+68121
+68121_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.099536
+Adding 67961 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.220944
+time warm up 0.066180
+SpMV_bufferSize = 34223 bytes
+eps = 2.61e-13 eps_counter = 2.61e-05
+SpMV: calls = 100, time = 0.003460 s, GFLOPs = 316.411658, WS_standalone = 63.94 MB, WS_bicg = 69.66 MB
+error = 30.76       
+68121_68121_5405960_2118.48_1333.57_0.0463031_0.0621684,72,68121,68121,5473921,0.021071,30.7571,50,62.903919,0.000000,0.000000,CUSPARSE_CSR,68121,68121,5473921,62.903919,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 83334 83334 72.12518 13.35613 normal random 0.06981 0.12305 1.71335 0.88263 14
+------------------------
+83334
+83334_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.016049
+Adding 83294 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.227055
+time warm up 0.065492
+SpMV_bufferSize = 38063 bytes
+eps = 2.88676e-13 eps_counter = 2.88676e-05
+SpMV: calls = 100, time = 0.003562 s, GFLOPs = 341.827663, WS_standalone = 71.27 MB, WS_bicg = 78.26 MB
+error = 34.01       
+83334_83334_6005175_4900.62_1556.95_0.0170662_0.0144733,72,83334,83334,6088469,0.021402,34.0147,50,69.994896,0.000000,0.000000,CUSPARSE_CSR,83334,83334,6088469,69.994896,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 1134890 1134890 5.26505 59.2134 normal random 0.1949 5460.30086 0.28207 0.43917 14
+------------------------
+1134890
+1134890_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.047131
+Adding 1134880 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.227491
+time warm up 0.065915
+SpMV_bufferSize = 44447 bytes
+eps = 1.06531e-12 eps_counter = 0.000106531
+SpMV: calls = 100, time = 0.004900 s, GFLOPs = 290.193799, WS_standalone = 103.01 MB, WS_bicg = 198.26 MB
+error = 125.5       
+1134890_1134890_5975157_206614_66643.1_0.000480594_0.0211803,72,1134890,1134890,7110037,0.035722,125.547,50,85.697182,0.000000,0.000000,CUSPARSE_CSR,1134890,1134890,7110037,85.697182,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 643994 643994 9.26954 784.57986 normal random 0.37608 47421.80439 0.7909 0.65833 14
+------------------------
+643994
+643994_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.909579
+Adding 643988 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.229003
+time warm up 0.067049
+SpMV_bufferSize = 42779 bytes
+eps = 8.02492e-13 eps_counter = 8.02492e-05
+SpMV: calls = 100, time = 0.005303 s, GFLOPs = 258.078065, WS_standalone = 90.60 MB, WS_bicg = 144.65 MB
+error = 94.58       
+643994_643994_6199473_181423_89278.8_0.0320484_0.175914,72,643994,643994,6843461,0.030307,94.578,50,80.773842,0.000000,0.000000,CUSPARSE_CSR,643994,643994,6843461,80.773842,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 223104 223104 34.23376 19.70372 normal random 0.59656 101.17985 0.02653 0.13584 14
+------------------------
+223104
+223104_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.026748
+Adding 223070 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.228697
+time warm up 0.067026
+SpMV_bufferSize = 49139 bytes
+eps = 4.72339e-13 eps_counter = 4.72339e-05
+SpMV: calls = 100, time = 0.006627 s, GFLOPs = 237.234926, WS_standalone = 94.21 MB, WS_bicg = 112.94 MB
+error = 55.67       
+223104_223104_7637554_132967_5544.75_0.000257849_0.000146804,72,223104,223104,7860624,0.026653,55.6687,50,90.808781,0.000000,0.000000,CUSPARSE_CSR,223104,223104,7860624,90.808781,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 683446 683446 11.09579 332.3041 normal random 0.00712 7519.6876 1.3266 0.65266 14
+------------------------
+683446
+683446_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.290764
+Adding 683435 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.232515
+time warm up 0.067142
+SpMV_bufferSize = 51931 bytes
+eps = 8.26708e-13 eps_counter = 8.26708e-05
+SpMV: calls = 100, time = 0.005042 s, GFLOPs = 329.515514, WS_standalone = 108.11 MB, WS_bicg = 165.46 MB
+error = 97.43       
+683446_683446_7624055_3992.45_2235.51_0.0653679_0.239783,72,683446,683446,8307490,0.030458,97.4269,50,97.678822,0.000000,0.000000,CUSPARSE_CSR,683446,683446,8307490,97.678822,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 140874 140874 55.46378 9.96733 normal random 0.04588 0.83904 1.71238 0.87344 14
+------------------------
+140874
+140874_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.019879
+Adding 140796 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.230179
+time warm up 0.067315
+SpMV_bufferSize = 49699 bytes
+eps = 3.75332e-13 eps_counter = 3.75332e-05
+SpMV: calls = 100, time = 0.004161 s, GFLOPs = 382.116163, WS_standalone = 93.67 MB, WS_bicg = 105.49 MB
+error = 44.24       
+140874_140874_7809480_5548.2_1811.29_0.0119754_0.0177163,72,140874,140874,7950276,0.024169,44.238,50,91.521084,0.000000,0.000000,CUSPARSE_CSR,140874,140874,7950276,91.521084,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: 161070 161070 50.81726 13.7888 normal random 0.03959 0.81041 1.27954 0.86886 14
+------------------------
+161070
+161070_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.027592
+Adding 161040 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.227759
+time warm up 0.067171
+SpMV_bufferSize = 52127 bytes
+eps = 4.01335e-13 eps_counter = 4.01335e-05
+SpMV: calls = 100, time = 0.004283 s, GFLOPs = 389.400223, WS_standalone = 98.50 MB, WS_bicg = 112.02 MB
+error = 47.3        
+161070_161070_8177930_5097.07_1750.79_0.0116481_0.0145135,72,161070,161070,8338970,0.024366,47.2969,50,96.046375,0.000000,0.000000,CUSPARSE_CSR,161070,161070,8338970,96.046375,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 806529 806529 11.06196 0.64513 normal random 0.02798 0.1752 0.71552 0.52413 14
+------------------------
+806529
+806529_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.037530
+Adding 806519 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.238208
+time warm up 0.067937
+SpMV_bufferSize = 60811 bytes
+eps = 8.9807e-13 eps_counter = 8.9807e-05
+SpMV: calls = 100, time = 0.005781 s, GFLOPs = 336.545937, WS_standalone = 126.71 MB, WS_bicg = 194.40 MB
+error = 105.8       
+806529_806529_8921672_22212.7_4753.18_0.000569974_0.00591774,72,806529,806529,9728191,0.033466,105.84,50,114.406979,0.000000,0.000000,CUSPARSE_CSR,806529,806529,9728191,114.406979,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 16783 16783 555.52803 1603.57634 normal random 0.57184 25.41091 1.90166 0.97675 14
+------------------------
+16783
+16783_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.102695
+Adding 16587 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.236048
+time warm up 0.067237
+SpMV_bufferSize = 58315 bytes
+eps = 1.29549e-13 eps_counter = 1.29549e-05
+SpMV: calls = 100, time = 0.004228 s, GFLOPs = 441.266232, WS_standalone = 107.08 MB, WS_bicg = 108.49 MB
+error = 15.3        
+16783_16783_9312277_6634.35_3128_0.0849123_0.157316,72,16783,16783,9328864,0.020955,15.2971,50,106.824402,0.000000,0.000000,CUSPARSE_CSR,16783,16783,9328864,106.824402,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 66463 66463 155.76816 350.74432 normal random 0.59028 552.81517 1.9249 0.96147 14
+------------------------
+66463
+66463_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.049561
+Adding 66342 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.232570
+time warm up 0.067701
+SpMV_bufferSize = 65291 bytes
+eps = 2.57804e-13 eps_counter = 2.57804e-05
+SpMV: calls = 100, time = 0.004750 s, GFLOPs = 439.797578, WS_standalone = 120.80 MB, WS_bicg = 126.38 MB
+error = 30.4        
+66463_66463_10378609_40147.6_9077.93_0.0047168_0.0223817,72,66463,66463,10444951,0.022435,30.3974,50,119.786518,0.000000,0.000000,CUSPARSE_CSR,66463,66463,10444951,119.786518,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 4284 1096894 2633.9944 4209.25932 normal random 0.95554 19.65193 1.57627 0.26917 14
+------------------------
+4284
+4284_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.221915
+Adding 4284 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.236771
+
+	ERROR
+[tid 3502246] bench_bicg_gpu.cu
+ => bench(): line [739]
+      >  the matrix must be square
+      >  errno [2]: No such file or directory
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 217918 217918 53.389 4.7439 normal random 0.05932 1.66004 1.87835 0.94981 14
+------------------------
+217918
+217918_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.026198
+Adding 217902 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.239831
+time warm up 0.068097
+SpMV_bufferSize = 74059 bytes
+eps = 4.66817e-13 eps_counter = 4.66817e-05
+SpMV: calls = 100, time = 0.005434 s, GFLOPs = 436.056494, WS_standalone = 139.75 MB, WS_bicg = 158.04 MB
+error = 55.02       
+217918_217918_11630299_15847.7_6079.31_0.0220535_0.129469,72,217918,217918,11848201,0.025460,55.0182,50,136.423195,0.000000,0.000000,CUSPARSE_CSR,217918,217918,11848201,136.423195,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: 63838 63838 221.63692 95.8757 normal random 0.89463 14.44418 1.7315 0.86687 14
+------------------------
+63838
+63838_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.040597
+Adding 63612 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.245483
+time warm up 0.068536
+SpMV_bufferSize = 88843 bytes
+eps = 2.52662e-13 eps_counter = 2.52662e-05
+SpMV: calls = 100, time = 0.006000 s, GFLOPs = 473.736226, WS_standalone = 163.88 MB, WS_bicg = 169.23 MB
+error = 29.78       
+63838_63838_14149627_53825.3_5271.25_0.00415486_0.00169639,72,63838,63838,14213239,0.023766,29.7825,50,162.901138,0.000000,0.000000,CUSPARSE_CSR,63838,63838,14213239,162.901138,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: 185639 185639 80.86267 165.06342 normal random 0.19354 7.18672 1.26978 0.96317 14
+------------------------
+185639
+185639_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.063151
+Adding 185631 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.242687
+time warm up 0.067779
+SpMV_bufferSize = 94943 bytes
+eps = 4.30858e-13 eps_counter = 4.30858e-05
+SpMV: calls = 100, time = 0.006673 s, GFLOPs = 455.253142, WS_standalone = 177.37 MB, WS_bicg = 192.95 MB
+error = 50.78       
+185639_185639_15003763_20259_16307_0.206508_0.401966,72,185639,185639,15189394,0.026287,50.7839,50,174.536980,0.000000,0.000000,CUSPARSE_CSR,185639,185639,15189394,174.536980,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: 38120 38120 466.63918 484.2375 normal random 0.48326 1.31721 1.9799 0.92741 14
+------------------------
+38120
+38120_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.052248
+Adding 37730 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.250910
+time warm up 0.069000
+SpMV_bufferSize = 102855 bytes
+eps = 1.95243e-13 eps_counter = 1.95243e-05
+SpMV: calls = 100, time = 0.006553 s, GFLOPs = 502.208698, WS_standalone = 189.05 MB, WS_bicg = 192.25 MB
+error = 23.02       
+38120_38120_16417883_20514.3_7024.41_0.0363808_0.114866,72,38120,38120,16455613,0.023857,23.0217,50,188.464966,0.000000,0.000000,CUSPARSE_CSR,38120,38120,16455613,188.464966,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 1382908 1382908 12.23296 48.39901 normal random 0.0215 632.77976 1.50718 0.79266 14
+------------------------
+1382908
+1382908_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.081603
+Adding 1382902 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.258900
+time warm up 0.067542
+SpMV_bufferSize = 114415 bytes
+eps = 1.17597e-12 eps_counter = 0.000117597
+SpMV: calls = 100, time = 0.008774 s, GFLOPs = 417.239878, WS_standalone = 235.86 MB, WS_bicg = 351.92 MB
+error = 138.6       
+1382908_1382908_16922141_32402.8_14618.3_0.0279012_0.162607,72,1382908,1382908,18305043,0.042719,138.589,50,214.759972,0.000000,0.000000,CUSPARSE_CSR,1382908,1382908,18305043,214.759972,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: 268096 268096 68.96215 105.38755 normal random 0.17227 8.26155 1.18402 0.96958 14
+------------------------
+268096
+268096_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.100505
+Adding 268066 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.255304
+time warm up 0.068723
+SpMV_bufferSize = 117199 bytes
+eps = 5.1778e-13 eps_counter = 5.1778e-05
+SpMV: calls = 100, time = 0.007831 s, GFLOPs = 478.880389, WS_standalone = 219.70 MB, WS_bicg = 242.19 MB
+error = 61.02       
+268096_268096_18482363_32275.1_14584_0.00359375_0.0326461,72,268096,268096,18750429,0.030145,61.0164,50,215.604340,0.000000,0.000000,CUSPARSE_CSR,268096,268096,18750429,215.604340,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 862664 862664 22.29737 32.26675 normal random 0.2489 312.26562 1.33083 0.76017 14
+------------------------
+862664
+862664_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.069295
+Adding 862642 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.260665
+time warm up 0.068504
+SpMV_bufferSize = 125643 bytes
+eps = 9.28797e-13 eps_counter = 9.28797e-05
+SpMV: calls = 100, time = 0.008748 s, GFLOPs = 459.540877, WS_standalone = 246.49 MB, WS_bicg = 318.89 MB
+error = 109.5       
+862664_862664_19238563_217837_43950.3_0.000331912_0.014794,72,862664,862664,20101205,0.037173,109.462,50,233.330841,0.000000,0.000000,CUSPARSE_CSR,862664,862664,20101205,233.330841,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 1634989 1634989 12.08148 38.32581 normal random 0.34006 410.37363 0.0671 0.07093 14
+------------------------
+1634989
+1634989_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.132410
+Adding 1634980 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.274470
+time warm up 0.068280
+SpMV_bufferSize = 133703 bytes
+eps = 1.27867e-12 eps_counter = 0.000127867
+SpMV: calls = 100, time = 0.016129 s, GFLOPs = 265.239936, WS_standalone = 275.98 MB, WS_bicg = 413.20 MB
+error = 150.7       
+1634989_1634989_19755749_547246_68824.7_2.2287e-05_5.85864e-05,72,1634989,1634989,21390729,0.053784,150.695,50,251.034458,0.000000,0.000000,CUSPARSE_CSR,1634989,1634989,21390729,251.034458,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 262144 262144 80.74153 529.35435 normal random 0.55185 607.89358 0.01987 0.02017 14
+------------------------
+262144
+262144_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.379714
+Adding 262076 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.260393
+time warm up 0.068305
+SpMV_bufferSize = 134051 bytes
+eps = 5.12e-13 eps_counter = 5.12e-05
+SpMV: calls = 100, time = 0.016144 s, GFLOPs = 265.692134, WS_standalone = 250.44 MB, WS_bicg = 272.44 MB
+error = 60.34       
+262144_262144_21184469_143708_4307.09_0.000559841_0.00360079,72,262144,262144,21446545,0.036953,60.3407,50,246.436234,0.000000,0.000000,CUSPARSE_CSR,262144,262144,21446545,246.436234,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 4690002 4690002 4.33182 1.10616 normal random 0.00097 259.2215 0.55374 0.64858 14
+------------------------
+4690002
+4690002_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.069720
+Adding 4689996 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.277170
+time warm up 0.069410
+SpMV_bufferSize = 146639 bytes
+eps = 2.16564e-12 eps_counter = 0.000216564
+SpMV: calls = 100, time = 0.013982 s, GFLOPs = 335.589476, WS_standalone = 357.94 MB, WS_bicg = 751.54 MB
+error = 255.2       
+4690002_4690002_18770794_4545.47_2223.9_0.0231003_0.144287,72,4690002,4690002,23460790,0.084605,255.223,50,286.378376,0.000000,0.000000,CUSPARSE_CSR,4690002,4690002,23460790,286.378376,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 22283 22283 1107.106 1409.12161 normal random 0.93148 5.55386 0.48228 0.28206 14
+------------------------
+22283
+22283_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.248595
+Adding 21359 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.269330
+time warm up 0.069113
+SpMV_bufferSize = 153971 bytes
+eps = 1.49275e-13 eps_counter = 1.49275e-05
+SpMV: calls = 100, time = 0.011410 s, GFLOPs = 431.798145, WS_standalone = 282.34 MB, WS_bicg = 284.21 MB
+error = 17.61       
+22283_22283_24612398_19915.1_2549.84_0.0548255_0.0631209,72,22283,22283,24633757,0.028386,17.6068,50,281.995983,0.000000,0.000000,CUSPARSE_CSR,22283,22283,24633757,281.995983,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 4194304 4194304 5.79998 1.33638 normal random 0.41968 2.83335 0.49373 0.48091 14
+------------------------
+4194304
+4194304_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.146415
+Adding 4194295 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.296699
+time warm up 0.069149
+SpMV_bufferSize = 182515 bytes
+eps = 2.048e-12 eps_counter = 0.0002048
+SpMV: calls = 100, time = 0.017289 s, GFLOPs = 337.790579, WS_standalone = 414.18 MB, WS_bicg = 766.18 MB
+error = 241.4       
+4194304_4194304_25006718_1.84131e+06_602399_0.0012981_0.035942,72,4194304,4194304,29201013,0.082692,241.359,50,350.179077,0.000000,0.000000,CUSPARSE_CSR,4194304,4194304,29201013,350.179077,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 1437547 1911130 20.79451 4.14027 normal random 0.53797 17.39555 0.00012 0.00014 14
+------------------------
+1437547
+1437547_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.102959
+Adding 1437533 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.288640
+
+	ERROR
+[tid 3503585] bench_bicg_gpu.cu
+ => bench(): line [739]
+      >  the matrix must be square
+      >  errno [2]: No such file or directory
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 2601977 2601977 13.92535 96.4949 normal random 0.24016 2738.46363 0.00309 0.11658 14
+------------------------
+2601977
+2601977_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.215039
+Adding 2601968 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.304325
+time warm up 0.066893
+SpMV_bufferSize = 242835 bytes
+eps = 1.61306e-12 eps_counter = 0.000161306
+SpMV: calls = 100, time = 0.028224 s, GFLOPs = 275.310047, WS_standalone = 494.25 MB, WS_bicg = 712.62 MB
+error = 190.1       
+2601977_2601977_36249873_619293_64604.1_2.26539e-05_0.000136708,72,2601977,2601977,38851841,0.076501,190.103,50,454.549793,0.000000,0.000000,CUSPARSE_CSR,2601977,2601977,38851841,454.549793,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: 1200611 1200611 31.867 11.44845 normal random 0.54995 3.73224 0.05017 0.16735 14
+------------------------
+1200611
+1200611_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.188283
+Adding 1200571 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.304452
+time warm up 0.065845
+SpMV_bufferSize = 246643 bytes
+eps = 1.09572e-12 eps_counter = 0.000109572
+SpMV: calls = 100, time = 0.027964 s, GFLOPs = 282.226472, WS_standalone = 474.50 MB, WS_bicg = 575.26 MB
+error = 129.1       
+1200611_1200611_38260873_654922_35802.3_4.86674e-05_1.6426e-05,72,1200611,1200611,39461444,0.060406,129.132,50,456.180359,0.000000,0.000000,CUSPARSE_CSR,1200611,1200611,39461444,456.180359,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 952203 952203 48.85773 8.3626 normal random 0.20421 0.576 1.79674 0.90605 14
+------------------------
+952203
+952203_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.104355
+Adding 952158 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.323900
+time warm up 0.066075
+SpMV_bufferSize = 296639 bytes
+eps = 9.75809e-13 eps_counter = 9.75809e-05
+SpMV: calls = 100, time = 0.018025 s, GFLOPs = 526.617278, WS_standalone = 561.31 MB, WS_bicg = 641.22 MB
+error = 115         
+952203_952203_46508902_177025_68070.3_0.0030512_0.051562,72,952203,952203,47461060,0.047709,115,50,546.781097,0.000000,0.000000,CUSPARSE_CSR,952203,952203,47461060,546.781097,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 1157456 1157456 41.93589 16.14859 normal random 0.5105 1.13613 0.8487 0.54912 14
+------------------------
+1157456
+1157456_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.242667
+Adding 1157417 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.330138
+time warm up 0.066416
+SpMV_bufferSize = 310611 bytes
+eps = 1.07585e-12 eps_counter = 0.000107585
+SpMV: calls = 100, time = 0.021420 s, GFLOPs = 464.020915, WS_standalone = 590.81 MB, WS_bicg = 687.95 MB
+error = 126.8       
+1157456_1157456_48539219_552038_81207.1_7.66282e-05_2.70446e-05,72,1157456,1157456,49696636,0.053935,126.791,50,573.148212,0.000000,0.000000,CUSPARSE_CSR,1157456,1157456,49696636,573.148212,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: 5558326 5558326 10.70903 1673.16007 normal random 0.50252 120504.84964 1.06533 0.94277 14
+------------------------
+5558326
+5558326_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 2.360594
+Adding 5558323 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.463353
+time warm up 0.069963
+SpMV_bufferSize = 410871 bytes
+eps = 2.35761e-12 eps_counter = 0.000235761
+SpMV: calls = 100, time = 0.046350 s, GFLOPs = 283.659129, WS_standalone = 858.33 MB, WS_bicg = 1324.80 MB
+error = 277.8       
+5558326_5558326_60179412_1.95752e+06_1.19783e+06_0.0347856_0.1832,72,5558326,5558326,65737735,0.129574,277.847,50,773.512009,0.000000,0.000000,CUSPARSE_CSR,5558326,5558326,65737735,773.512009,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 4847571 4847571 14.23265 46.90436 normal random 0.34698 1424.80633 0.28427 0.28178 14
+------------------------
+4847571
+4847571_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.310476
+Adding 4847558 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.396663
+time warm up 0.067936
+SpMV_bufferSize = 461223 bytes
+eps = 2.20172e-12 eps_counter = 0.000220172
+SpMV: calls = 100, time = 0.043062 s, GFLOPs = 342.733461, WS_standalone = 936.97 MB, WS_bicg = 1343.79 MB
+error = 259.5       
+4847571_4847571_68946667_1.68179e+06_194915_8.57214e-06_2.40508e-05,72,4847571,4847571,73794225,0.118351,259.476,50,862.999905,0.000000,0.000000,CUSPARSE_CSR,4847571,4847571,73794225,862.999905,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 986703 986703 72.63211 11.0673 normal random 0.01817 0.11521 1.76984 0.91514 14
+------------------------
+986703
+986703_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.148041
+Adding 986623 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.383035
+time warm up 0.065605
+SpMV_bufferSize = 453971 bytes
+eps = 9.93329e-13 eps_counter = 9.93329e-05
+SpMV: calls = 100, time = 0.026410 s, GFLOPs = 550.038087, WS_standalone = 850.05 MB, WS_bicg = 932.86 MB
+error = 117.1       
+986703_986703_71647231_15189.1_5110.66_0.0058097_0.0115474,72,986703,986703,72633854,0.057338,117.064,50,834.992470,0.000000,0.000000,CUSPARSE_CSR,986703,986703,72633854,834.992470,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 66000 asic 66000 
+File: 943695 943695 82.2849 42.44526 normal random 0.62315 2.23492 1.5811 0.8197 14
+------------------------
+943695
+943695_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.277173
+Adding 943613 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.399912
+time warm up 0.066527
+SpMV_bufferSize = 491215 bytes
+eps = 9.7144e-13 eps_counter = 9.7144e-05
+SpMV: calls = 100, time = 0.028449 s, GFLOPs = 552.524248, WS_standalone = 917.43 MB, WS_bicg = 996.62 MB
+error = 114.5       
+943695_943695_77649465_498177_131239_0.000190922_0.00398798,72,943695,943695,78593078,0.059076,114.486,50,903.026314,0.000000,0.000000,CUSPARSE_CSR,943695,943695,78593078,903.026314,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 66000 asic 66000 
+File: 5154859 5154859 19.24389 5.73672 normal random 0.21196 1.00963 0.19755 0.79411 14
+------------------------
+5154859
+5154859_bicg_cusparse_csr
+max threads 72
+time generate artificial matrix: 0.353120
+Adding 5154838 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.470197
+time warm up 0.065663
+SpMV_bufferSize = 652255 bytes
+eps = 2.27043e-12 eps_counter = 0.000227043
+SpMV: calls = 100, time = 0.049647 s, GFLOPs = 420.406189, WS_standalone = 1292.62 MB, WS_bicg = 1725.23 MB
+error = 267.6       
+5154859_5154859_99204258_970942_179775_2.04037e-05_6.37525e-06,72,5154859,5154859,104359096,0.130431,267.572,50,1213.959305,0.000000,0.000000,CUSPARSE_CSR,5154859,5154859,104359096,1213.959305,1.000000
+
+
+Total time = 0 minutes 35 seconds

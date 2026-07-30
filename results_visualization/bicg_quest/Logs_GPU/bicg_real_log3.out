@@ -1,0 +1,1178 @@
+ARM_LINUX_COMPILER_INCLUDES=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//includes;BLAS_STATIC=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;ARMPL_INCLUDES_ILP64_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64_mp;SPARSEX_LIB_PATH=;ARMPL_ROOT_DIR=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc/;path_graphs_sparse_survey=/local/pmpakos/Data/graphs/graphs_sparse_survey;numa_nodes=0;BLAS_SHARED=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.so;PRINT_STATISTICS=1;ARMPL_INCLUDES_INT64=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64;CLEAR_CACHES=0;LLVM_INC_PATH=;AOCL_PATH=;GCC_ROOT_DIR=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04/;GCC_INCLUDES=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//include;GCC_BUILD=348;ARMPL_BUILD=12;SPARSEX_INC_PATH=;TBB_PATH=;max_cores=256;RAVE_EMULATION=0;COMPILER_PATH=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04/;LLVM_LIB_PATH=;DIV_STEALING_ENABLED=1;ARM_ROOT_DIR=/local/pmpakos/arm-compiler/;USE_ARTIFICIAL_MATRICES=0;MANPATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//share/man:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//share/man;ARMPL_INCLUDES=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include;ARM_LINUX_COMPILER_BUILD=9;ARMPL_INCLUDES_INT64_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64_mp;ARMPL_INCLUDES_ILP64=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_ilp64;ARMCLANG_ROOT_DIR=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04/;ARMPL_DIR=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc/;ARM_LICENSE_DIR=/local/pmpakos/arm-compiler//licences;CUDA_COMPUTE=90;ARMPL_INCLUDES_LP64_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_lp64_mp;SDV_TRACING=0;LAPACK=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;GHOST_APPS_ROOT_DIR=/local/pmpakos/SpMV-Research/benchmark_code/BENCH/src/sell-C-s;CG_MAX_NUM_ITERS=50;GCC_DIR=/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04/;ARM_HPC_COMPILER_LICENSE_SEARCH_PATH=/local/pmpakos/arm-compiler//licenses;cores=72;BOOST_LIB_PATH=;ARM_LINUX_COMPILER_DIR=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04/;path_validation=/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices;K_DIM=16;output_to_files=1;force_retry_on_error=0;LIBRARY_PATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib64:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib;CUDA_PATH=/usr/local/cuda;path_tamu=/local/pmpakos/Data/graphs/tamu;GHOST_ROOT_DIR=/pfs/lustrep2/scratch/project_465000869/pmpakos/damned_directory/;DIV_PACKET_REORDERING=0;ARMPL_LIBRARIES=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib;LAPACK_SHARED=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.so;MKL_PATH=;ZFP_ROOT_DIR=/local/pmpakos/lib/zfp;SPARSEX_CONF_PATH=;DIV_VC_TOLERANCE=0;ARM_LINUX_COMPILER_LIBRARIES=/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib;ROCM_PATH=;LD_LIBRARY_PATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//lib64:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//lib/clang/13.0.0/armpl_links/lib:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib;LAPACK_STATIC=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;cpu_pinning_group_size=1;path_M3E=/local/pmpakos/Data/graphs/M3E-Matrix-Collection;FPZIP_ROOT_DIR=/local/pmpakos/lib/fpzip;cpu_affinity=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71;BLAS=:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//lib/libarmpl_lp64.a;PATH=/local/pmpakos/.local/bin:/local/pmpakos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//binutils_bin:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//bin;USE_PROCESSES=0;cpu_pinning_step=1;RAPL_REGISTERS=0;PLOT_MATRIX=0;BOOST_INC_PATH=;USE_RCM_REORDERING=0;CPATH=:/local/pmpakos/arm-compiler//gcc-13.2.0_Ubuntu-22.04//include:/local/pmpakos/arm-compiler//arm-linux-compiler-24.04_Ubuntu-22.04//include:/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_common;path_openFoam=;COOLDOWN=0;ARMPL_INCLUDES_MP=/local/pmpakos/arm-compiler//armpl-24.04.0_Ubuntu-22.04_gcc//include_lp64_mp;
+program: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/src/bicg_cusparse_csr_nv_d.exe
+number of matrices: 50
+max threads 72
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/scircuit.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/scircuit.mtx
+scircuit_bicg_cusparse_csr
+max threads 72
+time read: 0.003881
+time coo to csr: 0.017317
+Adding 84 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.224215
+time warm up 0.070921
+SpMV_bufferSize = 6003 bytes
+eps = 4.13519e-13 eps_counter = 4.13519e-05
+SpMV: calls = 100, time = 0.001493 s, GFLOPs = 128.443760, WS_standalone = 14.24 MB, WS_bicg = 28.59 MB
+error = 48.73       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/scircuit.mtx,72,170998,170998,959020,0.020738,48.734,50,11.627422,0.000000,0.000000,CUSPARSE_CSR,170998,170998,959020,11.627422,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mac_econ_fwd500.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mac_econ_fwd500.mtx
+mac_econ_fwd500_bicg_cusparse_csr
+max threads 72
+time read: 0.004476
+time coo to csr: 0.016935
+Adding 184000 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.210948
+time warm up 0.069387
+SpMV_bufferSize = 9119 bytes
+eps = 4.54423e-13 eps_counter = 4.54423e-05
+SpMV: calls = 100, time = 0.001816 s, GFLOPs = 160.492590, WS_standalone = 20.62 MB, WS_bicg = 37.95 MB
+error = 53.56       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mac_econ_fwd500.mtx,72,206500,206500,1457389,0.021016,53.563,50,17.466232,0.000000,0.000000,CUSPARSE_CSR,206500,206500,1457389,17.466232,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/raefsky3.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/raefsky3.mtx
+raefsky3_bicg_cusparse_csr
+max threads 72
+time read: 0.005834
+time coo to csr: 0.017094
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.210564
+time warm up 0.067670
+SpMV_bufferSize = 9315 bytes
+eps = 1.45602e-13 eps_counter = 1.45602e-05
+SpMV: calls = 100, time = 0.001567 s, GFLOPs = 190.024371, WS_standalone = 17.44 MB, WS_bicg = 19.22 MB
+error = 17.18       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/raefsky3.mtx,72,21200,21200,1488768,0.017782,17.1756,50,17.118473,0.000000,0.000000,CUSPARSE_CSR,21200,21200,1488768,17.118473,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rgg_n_2_17_s0.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rgg_n_2_17_s0.mtx
+rgg_n_2_17_s0_bicg_cusparse_csr
+max threads 72
+time read: 0.001897
+time coo to csr: 0.016788
+Adding 131072 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.219016
+time warm up 0.069278
+SpMV_bufferSize = 9939 bytes
+eps = 3.62039e-13 eps_counter = 3.62039e-05
+SpMV: calls = 100, time = 0.001815 s, GFLOPs = 175.072525, WS_standalone = 20.68 MB, WS_bicg = 31.68 MB
+error = 42.67       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rgg_n_2_17_s0.mtx,72,131072,131072,1588578,0.019512,42.6732,50,18.679836,0.000000,0.000000,CUSPARSE_CSR,131072,131072,1588578,18.679836,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bbmat.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bbmat.mtx
+bbmat_bicg_cusparse_csr
+max threads 72
+time read: 0.006478
+time coo to csr: 0.017429
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.214173
+time warm up 0.066796
+SpMV_bufferSize = 11083 bytes
+eps = 1.96835e-13 eps_counter = 1.96835e-05
+SpMV: calls = 100, time = 0.001687 s, GFLOPs = 210.001636, WS_standalone = 21.01 MB, WS_bicg = 24.27 MB
+error = 23.22       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bbmat.mtx,72,38744,38744,1771722,0.018258,23.2164,50,20.423550,0.000000,0.000000,CUSPARSE_CSR,38744,38744,1771722,20.423550,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 41850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/appu.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/appu.mtx
+appu_bicg_cusparse_csr
+max threads 72
+time read: 0.006396
+time coo to csr: 0.021391
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.211711
+time warm up 0.067113
+SpMV_bufferSize = 11591 bytes
+eps = 1.18322e-13 eps_counter = 1.18322e-05
+SpMV: calls = 100, time = 0.002085 s, GFLOPs = 177.725093, WS_standalone = 21.47 MB, WS_bicg = 22.65 MB
+error = 13.93       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/appu.mtx,72,14000,14000,1853104,0.018091,13.9284,50,21.260502,0.000000,0.000000,CUSPARSE_CSR,14000,14000,1853104,21.260502,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mc2depi.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mc2depi.mtx
+mc2depi_bicg_cusparse_csr
+max threads 72
+time read: 0.004378
+time coo to csr: 0.016768
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.216523
+time warm up 0.067091
+SpMV_bufferSize = 13135 bytes
+eps = 7.25138e-13 eps_counter = 7.25138e-05
+SpMV: calls = 100, time = 0.002543 s, GFLOPs = 165.199748, WS_standalone = 34.06 MB, WS_bicg = 78.19 MB
+error = 85.46       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mc2depi.mtx,72,525825,525825,2100225,0.026467,85.4634,50,26.041035,0.000000,0.000000,CUSPARSE_CSR,525825,525825,2100225,26.041035,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rma10.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rma10.mtx
+rma10_bicg_cusparse_csr
+max threads 72
+time read: 0.007431
+time coo to csr: 0.017604
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.219240
+time warm up 0.067848
+SpMV_bufferSize = 14847 bytes
+eps = 2.16414e-13 eps_counter = 2.16414e-05
+SpMV: calls = 100, time = 0.001876 s, GFLOPs = 253.158389, WS_standalone = 28.06 MB, WS_bicg = 31.99 MB
+error = 25.51       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rma10.mtx,72,46835,46835,2374001,0.018734,25.5147,50,27.346951,0.000000,0.000000,CUSPARSE_CSR,46835,46835,2374001,27.346951,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cop20k_A.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cop20k_A.mtx
+cop20k_A_bicg_cusparse_csr
+max threads 72
+time read: 0.004427
+time coo to csr: 0.019250
+Adding 21349 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.216520
+time warm up 0.065790
+SpMV_bufferSize = 16543 bytes
+eps = 3.48126e-13 eps_counter = 3.48126e-05
+SpMV: calls = 100, time = 0.002277 s, GFLOPs = 232.369073, WS_standalone = 32.59 MB, WS_bicg = 42.76 MB
+error = 41.02       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cop20k_A.mtx,72,121192,121192,2645680,0.020157,41.0244,50,30.739719,0.000000,0.000000,CUSPARSE_CSR,121192,121192,2645680,30.739719,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/thermomech_dK.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/thermomech_dK.mtx
+thermomech_dK_bicg_cusparse_csr
+max threads 72
+time read: 0.009652
+time coo to csr: 0.019616
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.214034
+time warm up 0.068031
+SpMV_bufferSize = 17799 bytes
+eps = 4.52013e-13 eps_counter = 4.52013e-05
+SpMV: calls = 100, time = 0.002478 s, GFLOPs = 229.707967, WS_standalone = 36.47 MB, WS_bicg = 53.62 MB
+error = 53.27       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/thermomech_dK.mtx,72,204316,204316,2846228,0.021979,53.2729,50,33.351902,0.000000,0.000000,CUSPARSE_CSR,204316,204316,2846228,33.351902,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/webbase-1M.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/webbase-1M.mtx
+webbase-1M_bicg_cusparse_csr
+max threads 72
+time read: 0.008526
+time coo to csr: 0.020104
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.222550
+time warm up 0.065961
+SpMV_bufferSize = 19419 bytes
+eps = 1e-12 eps_counter = 0.0001
+SpMV: calls = 100, time = 0.003025 s, GFLOPs = 205.343250, WS_standalone = 54.61 MB, WS_bicg = 138.54 MB
+error = 117.9       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/webbase-1M.mtx,72,1000005,1000005,3105536,0.030823,117.852,50,39.354759,0.000000,0.000000,CUSPARSE_CSR,1000005,1000005,3105536,39.354759,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cant.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cant.mtx
+cant_bicg_cusparse_csr
+max threads 72
+time read: 0.007428
+time coo to csr: 0.018375
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.218927
+time warm up 0.067232
+SpMV_bufferSize = 25055 bytes
+eps = 2.49902e-13 eps_counter = 2.49902e-05
+SpMV: calls = 100, time = 0.002655 s, GFLOPs = 301.889388, WS_standalone = 47.05 MB, WS_bicg = 52.29 MB
+error = 29.46       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cant.mtx,72,62451,62451,4007383,0.019641,29.4618,50,46.099094,0.000000,0.000000,CUSPARSE_CSR,62451,62451,4007383,46.099094,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ASIC_680k.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ASIC_680k.mtx
+ASIC_680k_bicg_cusparse_csr
+max threads 72
+time read: 0.012768
+time coo to csr: 0.043257
+Adding 75 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.219164
+time warm up 0.067831
+SpMV_bufferSize = 24207 bytes
+eps = 8.26355e-13 eps_counter = 8.26355e-05
+SpMV: calls = 100, time = 0.003261 s, GFLOPs = 237.471719, WS_standalone = 57.33 MB, WS_bicg = 114.64 MB
+error = 97.39       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ASIC_680k.mtx,72,682862,682862,3871848,0.028165,97.391,50,46.914700,0.000000,0.000000,CUSPARSE_CSR,682862,682862,3871848,46.914700,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/roadNet-TX.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/roadNet-TX.mtx
+roadNet-TX_bicg_cusparse_csr
+max threads 72
+time read: 0.003754
+time coo to csr: 0.019309
+Adding 1393383 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.226224
+time warm up 0.067678
+SpMV_bufferSize = 32739 bytes
+eps = 1.18042e-12 eps_counter = 0.000118042
+SpMV: calls = 100, time = 0.004467 s, GFLOPs = 234.449545, WS_standalone = 86.51 MB, WS_bicg = 203.44 MB
+error = 139.1       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/roadNet-TX.mtx,72,1393383,1393383,5236703,0.037915,139.115,50,65.244648,0.000000,0.000000,CUSPARSE_CSR,1393383,1393383,5236703,65.244648,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pdb1HYS.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pdb1HYS.mtx
+pdb1HYS_bicg_cusparse_csr
+max threads 72
+time read: 0.007428
+time coo to csr: 0.019144
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.223400
+time warm up 0.067380
+SpMV_bufferSize = 27163 bytes
+eps = 1.90832e-13 eps_counter = 1.90832e-05
+SpMV: calls = 100, time = 0.002851 s, GFLOPs = 304.817542, WS_standalone = 50.42 MB, WS_bicg = 53.47 MB
+error = 22.49       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pdb1HYS.mtx,72,36417,36417,4344765,0.019817,22.4944,50,49.860813,0.000000,0.000000,CUSPARSE_CSR,36417,36417,4344765,49.860813,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b300_c3.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b300_c3.mtx
+TSOPF_RS_b300_c3_bicg_cusparse_csr
+max threads 72
+time read: 0.016008
+time coo to csr: 0.020437
+Adding 282 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.221978
+time warm up 0.067214
+SpMV_bufferSize = 27595 bytes
+eps = 2.05275e-13 eps_counter = 2.05275e-05
+SpMV: calls = 100, time = 0.002784 s, GFLOPs = 317.072329, WS_standalone = 51.31 MB, WS_bicg = 54.85 MB
+error = 24.19       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b300_c3.mtx,72,42138,42138,4413731,0.019727,24.1868,50,50.671890,0.000000,0.000000,CUSPARSE_CSR,42138,42138,4413731,50.671890,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Chebyshev4.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Chebyshev4.mtx
+Chebyshev4_bicg_cusparse_csr
+max threads 72
+time read: 0.020074
+time coo to csr: 0.030860
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.222215
+time warm up 0.067828
+SpMV_bufferSize = 33619 bytes
+eps = 2.61e-13 eps_counter = 2.61e-05
+SpMV: calls = 100, time = 0.003134 s, GFLOPs = 343.189813, WS_standalone = 62.84 MB, WS_bicg = 68.56 MB
+error = 30.76       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Chebyshev4.mtx,72,68121,68121,5377761,0.020496,30.7571,50,61.803455,0.000000,0.000000,CUSPARSE_CSR,68121,68121,5377761,61.803455,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 41850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/consph.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/consph.mtx
+consph_bicg_cusparse_csr
+max threads 72
+time read: 0.010358
+time coo to csr: 0.020835
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.222720
+time warm up 0.067213
+SpMV_bufferSize = 37575 bytes
+eps = 2.88676e-13 eps_counter = 2.88676e-05
+SpMV: calls = 100, time = 0.003549 s, GFLOPs = 338.721091, WS_standalone = 70.37 MB, WS_bicg = 77.37 MB
+error = 34.03       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/consph.mtx,72,83334,83334,6010480,0.021183,34.0294,50,69.102383,0.000000,0.000000,CUSPARSE_CSR,83334,83334,6010480,69.102383,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/com-Youtube.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/com-Youtube.mtx
+com-Youtube_bicg_cusparse_csr
+max threads 72
+time read: 0.004898
+time coo to csr: 0.023180
+Adding 1134890 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.228059
+time warm up 0.068335
+SpMV_bufferSize = 44447 bytes
+eps = 1.06531e-12 eps_counter = 0.000106531
+SpMV: calls = 100, time = 0.005339 s, GFLOPs = 266.362089, WS_standalone = 103.02 MB, WS_bicg = 198.26 MB
+error = 125.6       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/com-Youtube.mtx,72,1134890,1134890,7110138,0.036721,125.551,50,85.698338,0.000000,0.000000,CUSPARSE_CSR,1134890,1134890,7110138,85.698338,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat30.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat30.mtx
+rajat30_bicg_cusparse_csr
+max threads 72
+time read: 0.021202
+time coo to csr: 0.078664
+Adding 9629 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.226966
+time warm up 0.068129
+SpMV_bufferSize = 38667 bytes
+eps = 8.02492e-13 eps_counter = 8.02492e-05
+SpMV: calls = 100, time = 0.004273 s, GFLOPs = 289.501452, WS_standalone = 83.06 MB, WS_bicg = 137.11 MB
+error = 94.57       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat30.mtx,72,643994,643994,6185006,0.029094,94.5727,50,73.238422,0.000000,0.000000,CUSPARSE_CSR,643994,643994,6185006,73.238422,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/radiation.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/radiation.mtx
+radiation_bicg_cusparse_csr
+max threads 72
+time read: 0.019544
+time coo to csr: 0.026435
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.235138
+time warm up 0.069201
+SpMV_bufferSize = 47743 bytes
+eps = 4.72339e-13 eps_counter = 4.72339e-05
+SpMV: calls = 100, time = 0.005987 s, GFLOPs = 255.149366, WS_standalone = 91.66 MB, WS_bicg = 110.39 MB
+error = 55.67       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/radiation.mtx,72,223104,223104,7637688,0.026290,55.6687,50,88.257481,0.000000,0.000000,CUSPARSE_CSR,223104,223104,7637688,88.257481,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Stanford_Berkeley.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Stanford_Berkeley.mtx
+Stanford_Berkeley_bicg_cusparse_csr
+max threads 72
+time read: 0.010503
+time coo to csr: 0.036834
+Adding 683446 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.231414
+time warm up 0.068880
+SpMV_bufferSize = 51675 bytes
+eps = 8.26708e-13 eps_counter = 8.26708e-05
+SpMV: calls = 100, time = 0.004563 s, GFLOPs = 362.359923, WS_standalone = 107.64 MB, WS_bicg = 165.00 MB
+error = 97.43       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Stanford_Berkeley.mtx,72,683446,683446,8266822,0.029932,97.432,50,97.213413,0.000000,0.000000,CUSPARSE_CSR,683446,683446,8266822,97.213413,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/shipsec1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/shipsec1.mtx
+shipsec1_bicg_cusparse_csr
+max threads 72
+time read: 0.010498
+time coo to csr: 0.021852
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.227372
+time warm up 0.068972
+SpMV_bufferSize = 48843 bytes
+eps = 3.75332e-13 eps_counter = 3.75332e-05
+SpMV: calls = 100, time = 0.004100 s, GFLOPs = 381.144709, WS_standalone = 92.10 MB, WS_bicg = 103.93 MB
+error = 44.23       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/shipsec1.mtx,72,140874,140874,7813404,0.023617,44.2267,50,89.954708,0.000000,0.000000,CUSPARSE_CSR,140874,140874,7813404,89.954708,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/PR02R.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/PR02R.mtx
+PR02R_bicg_cusparse_csr
+max threads 72
+time read: 0.028305
+time coo to csr: 0.021526
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.227899
+time warm up 0.068939
+SpMV_bufferSize = 51167 bytes
+eps = 4.01335e-13 eps_counter = 4.01335e-05
+SpMV: calls = 100, time = 0.004260 s, GFLOPs = 384.234977, WS_standalone = 96.74 MB, WS_bicg = 110.26 MB
+error = 47.3        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/PR02R.mtx,72,161070,161070,8185136,0.024073,47.2969,50,94.285885,0.000000,0.000000,CUSPARSE_CSR,161070,161070,8185136,94.285885,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/CurlCurl_2.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/CurlCurl_2.mtx
+CurlCurl_2_bicg_cusparse_csr
+max threads 72
+time read: 0.015850
+time coo to csr: 0.023847
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.236886
+time warm up 0.068817
+SpMV_bufferSize = 55771 bytes
+eps = 8.9807e-13 eps_counter = 8.9807e-05
+SpMV: calls = 100, time = 0.005420 s, GFLOPs = 329.200884, WS_standalone = 117.49 MB, WS_bicg = 185.17 MB
+error = 105.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/CurlCurl_2.mtx,72,806529,806529,8921789,0.032880,105.84,50,105.178440,0.000000,0.000000,CUSPARSE_CSR,806529,806529,8921789,105.178440,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/gupta3.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/gupta3.mtx
+gupta3_bicg_cusparse_csr
+max threads 72
+time read: 0.006881
+time coo to csr: 0.027959
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.234331
+time warm up 0.068632
+SpMV_bufferSize = 58279 bytes
+eps = 1.29549e-13 eps_counter = 1.29549e-05
+SpMV: calls = 100, time = 0.004375 s, GFLOPs = 426.187947, WS_standalone = 107.02 MB, WS_bicg = 108.43 MB
+error = 15.26       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/gupta3.mtx,72,16783,16783,9323427,0.021816,15.2643,50,106.762180,0.000000,0.000000,CUSPARSE_CSR,16783,16783,9323427,106.762180,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mip1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mip1.mtx
+mip1_bicg_cusparse_csr
+max threads 72
+time read: 0.007507
+time coo to csr: 0.026426
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.231537
+time warm up 0.068100
+SpMV_bufferSize = 64715 bytes
+eps = 2.57804e-13 eps_counter = 2.57804e-05
+SpMV: calls = 100, time = 0.004684 s, GFLOPs = 442.049744, WS_standalone = 119.75 MB, WS_bicg = 125.32 MB
+error = 30.4        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mip1.mtx,72,66463,66463,10352819,0.022412,30.3974,50,118.732151,0.000000,0.000000,CUSPARSE_CSR,66463,66463,10352819,118.732151,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 41850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rail4284.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rail4284.mtx
+rail4284_bicg_cusparse_csr
+max threads 72
+time read: 0.017579
+time coo to csr: 0.050722
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.236421
+
+	ERROR
+[tid 3480974] bench_bicg_gpu.cu
+ => bench(): line [739]
+      >  the matrix must be square
+      >  errno [2]: No such file or directory
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 41850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pwtk.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pwtk.mtx
+pwtk_bicg_cusparse_csr
+max threads 72
+time read: 0.018963
+time coo to csr: 0.026013
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.238853
+time warm up 0.069117
+SpMV_bufferSize = 72723 bytes
+eps = 4.66817e-13 eps_counter = 4.66817e-05
+SpMV: calls = 100, time = 0.005373 s, GFLOPs = 433.056905, WS_standalone = 137.30 MB, WS_bicg = 155.59 MB
+error = 55.02       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pwtk.mtx,72,217918,217918,11634424,0.025290,55.0182,50,133.976711,0.000000,0.000000,CUSPARSE_CSR,217918,217918,11634424,133.976711,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 41850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/crankseg_2.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/crankseg_2.mtx
+crankseg_2_bicg_cusparse_csr
+max threads 72
+time read: 0.019097
+time coo to csr: 0.030511
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.243570
+time warm up 0.069476
+SpMV_bufferSize = 88439 bytes
+eps = 2.52662e-13 eps_counter = 2.52662e-05
+SpMV: calls = 100, time = 0.006114 s, GFLOPs = 462.807441, WS_standalone = 163.14 MB, WS_bicg = 168.50 MB
+error = 29.78       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/crankseg_2.mtx,72,63838,63838,14148858,0.023608,29.7825,50,162.164356,0.000000,0.000000,CUSPARSE_CSR,63838,63838,14148858,162.164356,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Si41Ge41H72.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Si41Ge41H72.mtx
+Si41Ge41H72_bicg_cusparse_csr
+max threads 72
+time read: 0.028092
+time coo to csr: 0.030396
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.244684
+time warm up 0.069205
+SpMV_bufferSize = 93831 bytes
+eps = 4.30858e-13 eps_counter = 4.30858e-05
+SpMV: calls = 100, time = 0.006506 s, GFLOPs = 461.467706, WS_standalone = 175.33 MB, WS_bicg = 190.91 MB
+error = 50.78       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Si41Ge41H72.mtx,72,185639,185639,15011265,0.026738,50.7839,50,172.498455,0.000000,0.000000,CUSPARSE_CSR,185639,185639,15011265,172.498455,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 41850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b2383.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b2383.mtx
+TSOPF_RS_b2383_bicg_cusparse_csr
+max threads 72
+time read: 0.057318
+time coo to csr: 0.037937
+Adding 2329 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.260119
+time warm up 0.069062
+SpMV_bufferSize = 101095 bytes
+eps = 1.95243e-13 eps_counter = 1.95243e-05
+SpMV: calls = 100, time = 0.006261 s, GFLOPs = 516.641458, WS_standalone = 185.82 MB, WS_bicg = 189.02 MB
+error = 23          
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b2383.mtx,72,38120,38120,16173498,0.023393,23,50,185.236416,0.000000,0.000000,CUSPARSE_CSR,38120,38120,16173498,185.236416,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/in-2004.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/in-2004.mtx
+in-2004_bicg_cusparse_csr
+max threads 72
+time read: 0.021745
+time coo to csr: 0.034838
+Adding 1005498 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.253637
+time warm up 0.068394
+SpMV_bufferSize = 112023 bytes
+eps = 1.17597e-12 eps_counter = 0.000117597
+SpMV: calls = 100, time = 0.008796 s, GFLOPs = 407.518931, WS_standalone = 231.48 MB, WS_bicg = 347.54 MB
+error = 138.6       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/in-2004.mtx,72,1382908,1382908,17922551,0.043066,138.589,50,210.382698,0.000000,0.000000,CUSPARSE_CSR,1382908,1382908,17922551,210.382698,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Ga41As41H72.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Ga41As41H72.mtx
+Ga41As41H72_bicg_cusparse_csr
+max threads 72
+time read: 0.033407
+time coo to csr: 0.033891
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.254842
+time warm up 0.068147
+SpMV_bufferSize = 115563 bytes
+eps = 5.1778e-13 eps_counter = 5.1778e-05
+SpMV: calls = 100, time = 0.007637 s, GFLOPs = 484.204704, WS_standalone = 216.70 MB, WS_bicg = 239.20 MB
+error = 61.02       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Ga41As41H72.mtx,72,268096,268096,18488476,0.029964,61.0164,50,212.606525,0.000000,0.000000,CUSPARSE_CSR,268096,268096,18488476,212.606525,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 41850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/eu-2005.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/eu-2005.mtx
+eu-2005_bicg_cusparse_csr
+max threads 72
+time read: 0.024908
+time coo to csr: 0.037032
+Adding 361237 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.259348
+time warm up 0.069922
+SpMV_bufferSize = 122487 bytes
+eps = 9.28797e-13 eps_counter = 9.28797e-05
+SpMV: calls = 100, time = 0.008828 s, GFLOPs = 443.935197, WS_standalone = 240.72 MB, WS_bicg = 313.11 MB
+error = 109.5       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/eu-2005.mtx,72,862664,862664,19596377,0.037580,109.462,50,227.553543,0.000000,0.000000,CUSPARSE_CSR,862664,862664,19596377,227.553543,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/wikipedia-20051105.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/wikipedia-20051105.mtx
+wikipedia-20051105_bicg_cusparse_csr
+max threads 72
+time read: 0.026289
+time coo to csr: 0.048945
+Adding 1617801 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.262353
+time warm up 0.069069
+SpMV_bufferSize = 133575 bytes
+eps = 1.27867e-12 eps_counter = 0.000127867
+SpMV: calls = 100, time = 0.015657 s, GFLOPs = 272.987773, WS_standalone = 275.76 MB, WS_bicg = 412.97 MB
+error = 150.7       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/wikipedia-20051105.mtx,72,1634989,1634989,21370879,0.053760,150.695,50,250.807293,0.000000,0.000000,CUSPARSE_CSR,1634989,1634989,21370879,250.807293,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/kron_g500-logn18.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/kron_g500-logn18.mtx
+kron_g500-logn18_bicg_cusparse_csr
+max threads 72
+time read: 0.019233
+time coo to csr: 0.048381
+Adding 261608 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.263887
+time warm up 0.067582
+SpMV_bufferSize = 133931 bytes
+eps = 5.12e-13 eps_counter = 5.12e-05
+SpMV: calls = 100, time = 0.014639 s, GFLOPs = 292.736049, WS_standalone = 250.22 MB, WS_bicg = 272.22 MB
+error = 60.34       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/kron_g500-logn18.mtx,72,262144,262144,21427516,0.035259,60.3407,50,246.218464,0.000000,0.000000,CUSPARSE_CSR,262144,262144,21427516,246.218464,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 43850 Sensor 1 40850  Sensor 2 43850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat31.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat31.mtx
+rajat31_bicg_cusparse_csr
+max threads 72
+time read: 0.058610
+time coo to csr: 0.032299
+Adding 1251 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.266515
+time warm up 0.068208
+SpMV_bufferSize = 126995 bytes
+eps = 2.16564e-12 eps_counter = 0.000216564
+SpMV: calls = 100, time = 0.013523 s, GFLOPs = 300.494008, WS_standalone = 321.97 MB, WS_bicg = 715.57 MB
+error = 255.2       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat31.mtx,72,4690002,4690002,20317504,0.084267,255.223,50,250.406322,0.000000,0.000000,CUSPARSE_CSR,4690002,4690002,20317504,250.406322,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/human_gene1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/human_gene1.mtx
+human_gene1_bicg_cusparse_csr
+max threads 72
+time read: 0.040669
+time coo to csr: 0.058071
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.267971
+time warm up 0.067659
+SpMV_bufferSize = 154195 bytes
+eps = 1.49275e-13 eps_counter = 1.49275e-05
+SpMV: calls = 100, time = 0.009684 s, GFLOPs = 509.515929, WS_standalone = 282.75 MB, WS_bicg = 284.62 MB
+error = 17.61       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/human_gene1.mtx,72,22283,22283,24669643,0.026932,17.6068,50,282.406666,0.000000,0.000000,CUSPARSE_CSR,22283,22283,24669643,282.406666,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/delaunay_n22.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/delaunay_n22.mtx
+delaunay_n22_bicg_cusparse_csr
+max threads 72
+time read: 0.019933
+time coo to csr: 0.052090
+Adding 4194304 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.286471
+time warm up 0.068228
+SpMV_bufferSize = 183511 bytes
+eps = 2.048e-12 eps_counter = 0.0002048
+SpMV: calls = 100, time = 0.017526 s, GFLOPs = 335.038896, WS_standalone = 416.00 MB, WS_bicg = 768.00 MB
+error = 241.4       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/delaunay_n22.mtx,72,4194304,4194304,29360042,0.083170,241.361,50,351.999020,0.000000,0.000000,CUSPARSE_CSR,4194304,4194304,29360042,351.999020,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/GL7d20.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/GL7d20.mtx
+GL7d20_bicg_cusparse_csr
+max threads 72
+time read: 0.052051
+time coo to csr: 0.059639
+Adding 1437483 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.289695
+
+	ERROR
+[tid 3482313] bench_bicg_gpu.cu
+ => bench(): line [739]
+      >  the matrix must be square
+      >  errno [2]: No such file or directory
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/sx-stackoverflow.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/sx-stackoverflow.mtx
+sx-stackoverflow_bicg_cusparse_csr
+max threads 72
+time read: 0.057637
+time coo to csr: 0.073225
+Adding 1244211 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.300283
+time warm up 0.070611
+SpMV_bufferSize = 234243 bytes
+eps = 1.61306e-12 eps_counter = 0.000161306
+SpMV: calls = 100, time = 0.029260 s, GFLOPs = 256.173752, WS_standalone = 478.53 MB, WS_bicg = 696.89 MB
+error = 190.1       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/sx-stackoverflow.mtx,72,2601977,2601977,37477661,0.078798,190.103,50,438.823551,0.000000,0.000000,CUSPARSE_CSR,2601977,2601977,37477661,438.823551,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dgreen.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dgreen.mtx
+dgreen_bicg_cusparse_csr
+max threads 72
+time read: 0.089223
+time coo to csr: 0.068332
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.302724
+time warm up 0.070356
+SpMV_bufferSize = 239135 bytes
+eps = 1.09572e-12 eps_counter = 0.000109572
+SpMV: calls = 100, time = 0.027274 s, GFLOPs = 280.554302, WS_standalone = 460.75 MB, WS_bicg = 561.51 MB
+error = 129.1       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dgreen.mtx,72,1200611,1200611,38259877,0.060307,129.136,50,442.429516,0.000000,0.000000,CUSPARSE_CSR,1200611,1200611,38259877,442.429516,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ldoor.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ldoor.mtx
+ldoor_bicg_cusparse_csr
+max threads 72
+time read: 0.068757
+time coo to csr: 0.052910
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.320358
+time warm up 0.068276
+SpMV_bufferSize = 290775 bytes
+eps = 9.75809e-13 eps_counter = 9.75809e-05
+SpMV: calls = 100, time = 0.017713 s, GFLOPs = 525.285183, WS_standalone = 550.57 MB, WS_bicg = 630.48 MB
+error = 115         
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ldoor.mtx,72,952203,952203,46522475,0.047513,115.004,50,536.039845,0.000000,0.000000,CUSPARSE_CSR,952203,952203,46522475,536.039845,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dielFilterV2real.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dielFilterV2real.mtx
+dielFilterV2real_bicg_cusparse_csr
+max threads 72
+time read: 0.091613
+time coo to csr: 0.056486
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.327475
+time warm up 0.067303
+SpMV_bufferSize = 303379 bytes
+eps = 1.07585e-12 eps_counter = 0.000107585
+SpMV: calls = 100, time = 0.019052 s, GFLOPs = 509.541172, WS_standalone = 577.56 MB, WS_bicg = 674.70 MB
+error = 126.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dielFilterV2real.mtx,72,1157456,1157456,48538952,0.051592,126.787,50,559.899570,0.000000,0.000000,CUSPARSE_CSR,1157456,1157456,48538952,559.899570,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/circuit5M.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/circuit5M.mtx
+circuit5M_bicg_cusparse_csr
+max threads 72
+time read: 0.199110
+time coo to csr: 0.156352
+Adding 1879 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.367049
+time warm up 0.066140
+SpMV_bufferSize = 372047 bytes
+eps = 2.35761e-12 eps_counter = 0.000235761
+SpMV: calls = 100, time = 0.034170 s, GFLOPs = 348.407667, WS_standalone = 787.24 MB, WS_bicg = 1253.71 MB
+error = 277.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/circuit5M.mtx,72,5558326,5558326,59526170,0.120007,277.847,50,702.426289,0.000000,0.000000,CUSPARSE_CSR,5558326,5558326,59526170,702.426289,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/soc-LiveJournal1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/soc-LiveJournal1.mtx
+soc-LiveJournal1_bicg_cusparse_csr
+max threads 72
+time read: 0.087500
+time coo to csr: 0.122858
+Adding 4329189 missing diagonal nonzeros
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.394532
+time warm up 0.070436
+SpMV_bufferSize = 458279 bytes
+eps = 2.20172e-12 eps_counter = 0.000220172
+SpMV: calls = 100, time = 0.044501 s, GFLOPs = 329.531881, WS_standalone = 931.57 MB, WS_bicg = 1338.40 MB
+error = 259.5       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/soc-LiveJournal1.mtx,72,4847571,4847571,73322962,0.122758,259.476,50,857.606728,0.000000,0.000000,CUSPARSE_CSR,4847571,4847571,73322962,857.606728,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bone010.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bone010.mtx
+bone010_bicg_cusparse_csr
+max threads 72
+time read: 0.077527
+time coo to csr: 0.063685
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.381675
+time warm up 0.066283
+SpMV_bufferSize = 447923 bytes
+eps = 9.93329e-13 eps_counter = 9.93329e-05
+SpMV: calls = 100, time = 0.026158 s, GFLOPs = 547.950915, WS_standalone = 838.98 MB, WS_bicg = 921.78 MB
+error = 117.1       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bone010.mtx,72,986703,986703,71666325,0.056223,117.064,50,823.919979,0.000000,0.000000,CUSPARSE_CSR,986703,986703,71666325,823.919979,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 41850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/audikw_1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/audikw_1.mtx
+audikw_1_bicg_cusparse_csr
+max threads 72
+time read: 0.125377
+time coo to csr: 0.074116
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.394768
+time warm up 0.067124
+SpMV_bufferSize = 485335 bytes
+eps = 9.7144e-13 eps_counter = 9.7144e-05
+SpMV: calls = 100, time = 0.028269 s, GFLOPs = 549.370850, WS_standalone = 906.65 MB, WS_bicg = 985.85 MB
+error = 114.5       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/audikw_1.mtx,72,943695,943695,77651847,0.058966,114.486,50,892.254780,0.000000,0.000000,CUSPARSE_CSR,943695,943695,77651847,892.254780,1.000000
+Temps: Composite 25850 Composite 26850 Composite 43850 Sensor 1 40850  Sensor 2 43850  Composite 44850 Sensor 1 40850  Sensor 2 44850  asic 65000 asic 65000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cage15.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cage15.mtx
+cage15_bicg_cusparse_csr
+max threads 72
+time read: 0.245972
+time coo to csr: 0.115000
+max_smem_per_block(bytes)=49152
+multiproc_count=132
+max_threads_per_block=1024
+warp_size=32
+max_threads_per_multiproc=2048
+max_block_dim_x=1024
+max_persistent_l2_cache=39321600
+max_num_threads=270336
+time convert to format: 0.450972
+time warm up 0.067112
+SpMV_bufferSize = 620007 bytes
+eps = 2.27043e-12 eps_counter = 0.000227043
+SpMV: calls = 100, time = 0.045809 s, GFLOPs = 433.102164, WS_standalone = 1233.57 MB, WS_bicg = 1666.18 MB
+error = 267.6       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cage15.mtx,72,5154859,5154859,99199551,0.125604,267.574,50,1154.912998,0.000000,0.000000,CUSPARSE_CSR,5154859,5154859,99199551,1154.912998,1.000000
+
+
+Total time = 0 minutes 28 seconds

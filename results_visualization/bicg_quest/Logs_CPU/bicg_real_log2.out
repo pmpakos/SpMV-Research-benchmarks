@@ -1,0 +1,828 @@
+program: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/src/bicg_armpl_d.exe
+number of matrices: 50
+max threads 72
+matrix_name,num_threads,csr_m,csr_n,csr_nnz,time,error,num_iterations,csr_mem_footprint,W_avg,J_estimated,format_name,m,n,nnz,mem_footprint,mem_ratio
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/scircuit.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/scircuit.mtx
+scircuit_bicg_armpl_d.exe
+max threads 72
+time read: 0.004127
+time coo to csr: 0.017566
+Adding 84 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.000741728
+armpl optimize time = 0.0751381
+time convert to format: 0.075989
+time warm up 0.065548
+eps = 4.13519e-13 eps_counter = 4.13519e-05
+SpMV: calls = 100, time = 0.002234 s, GFLOPs = 85.839653, WS_standalone = 14.24 MB, WS_bicg = 24.67 MB
+error = 413.5       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/scircuit.mtx,72,170998,170998,959020,0.010779,413.519,50,11.627422,0.000000,0.000000,ARMPL,170998,170998,959020,11.627422,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mac_econ_fwd500.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mac_econ_fwd500.mtx
+mac_econ_fwd500_bicg_armpl_d.exe
+max threads 72
+time read: 0.004606
+time coo to csr: 0.016605
+Adding 184000 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00112026
+armpl optimize time = 0.0281822
+time convert to format: 0.029408
+time warm up 0.065312
+eps = 4.54423e-13 eps_counter = 4.54423e-05
+SpMV: calls = 100, time = 0.002319 s, GFLOPs = 125.711268, WS_standalone = 20.62 MB, WS_bicg = 33.22 MB
+error = 454.4       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mac_econ_fwd500.mtx,72,206500,206500,1457389,0.011311,454.423,50,17.466232,0.000000,0.000000,ARMPL,206500,206500,1457389,17.466232,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/raefsky3.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/raefsky3.mtx
+raefsky3_bicg_armpl_d.exe
+max threads 72
+time read: 0.006063
+time coo to csr: 0.016687
+armpl armpl_spmat_create_csr_d = 0.0012279
+armpl optimize time = 0.0178231
+time convert to format: 0.019169
+time warm up 0.066448
+eps = 1.45602e-13 eps_counter = 1.45602e-05
+SpMV: calls = 100, time = 0.001917 s, GFLOPs = 155.353434, WS_standalone = 17.44 MB, WS_bicg = 18.74 MB
+error = 145.6       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/raefsky3.mtx,72,21200,21200,1488768,0.009491,145.602,50,17.118473,0.000000,0.000000,ARMPL,21200,21200,1488768,17.118473,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rgg_n_2_17_s0.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rgg_n_2_17_s0.mtx
+rgg_n_2_17_s0_bicg_armpl_d.exe
+max threads 72
+time read: 0.001869
+time coo to csr: 0.016871
+Adding 131072 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0012456
+armpl optimize time = 0.0264036
+time convert to format: 0.027824
+time warm up 0.066057
+eps = 3.62039e-13 eps_counter = 3.62039e-05
+SpMV: calls = 100, time = 0.002574 s, GFLOPs = 123.440068, WS_standalone = 20.68 MB, WS_bicg = 28.68 MB
+error = 97.46       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rgg_n_2_17_s0.mtx,72,131072,131072,1588578,0.010837,97.4572,50,18.679836,0.000000,0.000000,ARMPL,131072,131072,1588578,18.679836,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bbmat.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bbmat.mtx
+bbmat_bicg_armpl_d.exe
+max threads 72
+time read: 0.006814
+time coo to csr: 0.017215
+armpl armpl_spmat_create_csr_d = 0.00147398
+armpl optimize time = 0.0228415
+time convert to format: 0.024433
+time warm up 0.066345
+eps = 1.96835e-13 eps_counter = 1.96835e-05
+SpMV: calls = 100, time = 0.002360 s, GFLOPs = 150.140671, WS_standalone = 21.01 MB, WS_bicg = 23.38 MB
+error = 196.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bbmat.mtx,72,38744,38744,1771722,0.009832,196.835,50,20.423550,0.000000,0.000000,ARMPL,38744,38744,1771722,20.423550,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/appu.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/appu.mtx
+appu_bicg_armpl_d.exe
+max threads 72
+time read: 0.006635
+time coo to csr: 0.021464
+armpl armpl_spmat_create_csr_d = 0.00157075
+armpl optimize time = 0.0226044
+time convert to format: 0.024312
+time warm up 0.066647
+eps = 1.18322e-13 eps_counter = 1.18322e-05
+SpMV: calls = 100, time = 0.002618 s, GFLOPs = 141.585405, WS_standalone = 21.47 MB, WS_bicg = 22.33 MB
+error = 1.407e-06   
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/appu.mtx,72,14000,14000,1853104,0.010399,1.40672e-06,50,21.260502,0.000000,0.000000,ARMPL,14000,14000,1853104,21.260502,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mc2depi.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mc2depi.mtx
+mc2depi_bicg_armpl_d.exe
+max threads 72
+time read: 0.004623
+time coo to csr: 0.016704
+armpl armpl_spmat_create_csr_d = 0.0016871
+armpl optimize time = 0.0320844
+time convert to format: 0.033891
+time warm up 0.065307
+eps = 7.25138e-13 eps_counter = 7.25138e-05
+SpMV: calls = 100, time = 0.002461 s, GFLOPs = 170.660024, WS_standalone = 34.06 MB, WS_bicg = 66.16 MB
+error = 725.1       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mc2depi.mtx,72,525825,525825,2100225,0.013534,725.138,50,26.041035,0.000000,0.000000,ARMPL,525825,525825,2100225,26.041035,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rma10.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rma10.mtx
+rma10_bicg_armpl_d.exe
+max threads 72
+time read: 0.007576
+time coo to csr: 0.017648
+armpl armpl_spmat_create_csr_d = 0.00204314
+armpl optimize time = 0.0300327
+time convert to format: 0.032212
+time warm up 0.068070
+eps = 2.16414e-13 eps_counter = 2.16414e-05
+SpMV: calls = 100, time = 0.002670 s, GFLOPs = 177.797443, WS_standalone = 28.06 MB, WS_bicg = 30.92 MB
+error = 216.4       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rma10.mtx,72,46835,46835,2374001,0.010438,216.414,50,27.346951,0.000000,0.000000,ARMPL,46835,46835,2374001,27.346951,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cop20k_A.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cop20k_A.mtx
+cop20k_A_bicg_armpl_d.exe
+max threads 72
+time read: 0.004537
+time coo to csr: 0.019280
+Adding 21349 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00228394
+armpl optimize time = 0.0364376
+time convert to format: 0.038774
+time warm up 0.066502
+eps = 3.48126e-13 eps_counter = 3.48126e-05
+SpMV: calls = 100, time = 0.004439 s, GFLOPs = 119.197963, WS_standalone = 32.59 MB, WS_bicg = 39.99 MB
+error = 348.1       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cop20k_A.mtx,72,121192,121192,2645680,0.012529,348.126,50,30.739719,0.000000,0.000000,ARMPL,121192,121192,2645680,30.739719,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/thermomech_dK.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/thermomech_dK.mtx
+thermomech_dK_bicg_armpl_d.exe
+max threads 72
+time read: 0.010080
+time coo to csr: 0.019628
+armpl armpl_spmat_create_csr_d = 0.00249805
+armpl optimize time = 0.0418276
+time convert to format: 0.044489
+time warm up 0.066868
+eps = 4.52013e-13 eps_counter = 4.52013e-05
+SpMV: calls = 100, time = 0.004898 s, GFLOPs = 116.230162, WS_standalone = 36.47 MB, WS_bicg = 48.94 MB
+error = 452         
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/thermomech_dK.mtx,72,204316,204316,2846228,0.013256,452.013,50,33.351902,0.000000,0.000000,ARMPL,204316,204316,2846228,33.351902,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/webbase-1M.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/webbase-1M.mtx
+webbase-1M_bicg_armpl_d.exe
+max threads 72
+time read: 0.009173
+time coo to csr: 0.020450
+armpl armpl_spmat_create_csr_d = 0.00285107
+armpl optimize time = 0.751795
+time convert to format: 0.754917
+time warm up 0.069748
+eps = 1e-12 eps_counter = 0.0001
+SpMV: calls = 100, time = 0.006857 s, GFLOPs = 90.576901, WS_standalone = 54.61 MB, WS_bicg = 115.65 MB
+error = 1000        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/webbase-1M.mtx,72,1000005,1000005,3105536,0.022656,1000,50,39.354759,0.000000,0.000000,ARMPL,1000005,1000005,3105536,39.354759,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cant.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cant.mtx
+cant_bicg_armpl_d.exe
+max threads 72
+time read: 0.007479
+time coo to csr: 0.018378
+armpl armpl_spmat_create_csr_d = 0.00341402
+armpl optimize time = 0.0493221
+time convert to format: 0.052926
+time warm up 0.069953
+eps = 2.49902e-13 eps_counter = 2.49902e-05
+SpMV: calls = 100, time = 0.003414 s, GFLOPs = 234.776578, WS_standalone = 47.05 MB, WS_bicg = 50.86 MB
+error = 249.9       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cant.mtx,72,62451,62451,4007383,0.011602,249.902,50,46.099094,0.000000,0.000000,ARMPL,62451,62451,4007383,46.099094,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ASIC_680k.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ASIC_680k.mtx
+ASIC_680k_bicg_armpl_d.exe
+max threads 72
+time read: 0.013478
+time coo to csr: 0.044325
+Adding 75 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00289869
+armpl optimize time = 0.798184
+time convert to format: 0.801379
+time warm up 0.070707
+eps = 8.26355e-13 eps_counter = 8.26355e-05
+SpMV: calls = 100, time = 0.006966 s, GFLOPs = 111.164686, WS_standalone = 57.33 MB, WS_bicg = 99.01 MB
+error = 826.4       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ASIC_680k.mtx,72,682862,682862,3871848,0.019988,826.355,50,46.914700,0.000000,0.000000,ARMPL,682862,682862,3871848,46.914700,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/roadNet-TX.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/roadNet-TX.mtx
+roadNet-TX_bicg_armpl_d.exe
+max threads 72
+time read: 0.003741
+time coo to csr: 0.018826
+Adding 1393383 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00463878
+armpl optimize time = 0.120015
+time convert to format: 0.125010
+time warm up 0.071682
+eps = 1.18042e-12 eps_counter = 0.000118042
+SpMV: calls = 100, time = 0.014986 s, GFLOPs = 69.886024, WS_standalone = 86.51 MB, WS_bicg = 171.55 MB
+error = 100.5       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/roadNet-TX.mtx,72,1393383,1393383,5236703,0.039292,100.504,50,65.244648,0.000000,0.000000,ARMPL,1393383,1393383,5236703,65.244648,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pdb1HYS.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pdb1HYS.mtx
+pdb1HYS_bicg_armpl_d.exe
+max threads 72
+time read: 0.007745
+time coo to csr: 0.019006
+armpl armpl_spmat_create_csr_d = 0.00317734
+armpl optimize time = 0.052348
+time convert to format: 0.055923
+time warm up 0.069013
+eps = 1.90832e-13 eps_counter = 1.90832e-05
+SpMV: calls = 100, time = 0.003695 s, GFLOPs = 235.179905, WS_standalone = 50.42 MB, WS_bicg = 52.64 MB
+error = 190.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pdb1HYS.mtx,72,36417,36417,4344765,0.011246,190.832,50,49.860813,0.000000,0.000000,ARMPL,36417,36417,4344765,49.860813,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b300_c3.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b300_c3.mtx
+TSOPF_RS_b300_c3_bicg_armpl_d.exe
+max threads 72
+time read: 0.017027
+time coo to csr: 0.020686
+Adding 282 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00367686
+armpl optimize time = 0.0528687
+time convert to format: 0.056820
+time warm up 0.069371
+eps = 2.05275e-13 eps_counter = 2.05275e-05
+SpMV: calls = 100, time = 0.003406 s, GFLOPs = 259.204765, WS_standalone = 51.31 MB, WS_bicg = 53.89 MB
+error = 205.3       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b300_c3.mtx,72,42138,42138,4413731,0.011336,205.275,50,50.671890,0.000000,0.000000,ARMPL,42138,42138,4413731,50.671890,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Chebyshev4.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Chebyshev4.mtx
+Chebyshev4_bicg_armpl_d.exe
+max threads 72
+time read: 0.021583
+time coo to csr: 0.031092
+armpl armpl_spmat_create_csr_d = 0.00476598
+armpl optimize time = 0.0906556
+time convert to format: 0.095914
+time warm up 0.070241
+eps = 2.61e-13 eps_counter = 2.61e-05
+SpMV: calls = 100, time = 0.004865 s, GFLOPs = 221.091491, WS_standalone = 62.84 MB, WS_bicg = 67.00 MB
+error = 261         
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Chebyshev4.mtx,72,68121,68121,5377761,0.013365,261,50,61.803455,0.000000,0.000000,ARMPL,68121,68121,5377761,61.803455,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/consph.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/consph.mtx
+consph_bicg_armpl_d.exe
+max threads 72
+time read: 0.011228
+time coo to csr: 0.019959
+armpl armpl_spmat_create_csr_d = 0.00477088
+armpl optimize time = 0.0727344
+time convert to format: 0.078036
+time warm up 0.069948
+eps = 2.88676e-13 eps_counter = 2.88676e-05
+SpMV: calls = 100, time = 0.005033 s, GFLOPs = 238.829263, WS_standalone = 70.37 MB, WS_bicg = 75.46 MB
+error = 154.6       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/consph.mtx,72,83334,83334,6010480,0.013762,154.641,50,69.102383,0.000000,0.000000,ARMPL,83334,83334,6010480,69.102383,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/com-Youtube.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/com-Youtube.mtx
+com-Youtube_bicg_armpl_d.exe
+max threads 72
+time read: 0.005145
+time coo to csr: 0.022775
+Adding 1134890 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00662131
+armpl optimize time = 1.82701
+time convert to format: 1.834181
+time warm up 0.070398
+eps = 1.06531e-12 eps_counter = 0.000106531
+SpMV: calls = 100, time = 0.032157 s, GFLOPs = 44.221768, WS_standalone = 103.02 MB, WS_bicg = 172.28 MB
+error = 1065        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/com-Youtube.mtx,72,1134890,1134890,7110138,0.055025,1065.31,50,85.698338,0.000000,0.000000,ARMPL,1134890,1134890,7110138,85.698338,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat30.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat30.mtx
+rajat30_bicg_armpl_d.exe
+max threads 72
+time read: 0.022517
+time coo to csr: 0.075307
+Adding 9629 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00565062
+armpl optimize time = 1.12424
+time convert to format: 1.130413
+time warm up 0.070344
+eps = 8.02492e-13 eps_counter = 8.02492e-05
+SpMV: calls = 100, time = 0.009840 s, GFLOPs = 125.706888, WS_standalone = 83.06 MB, WS_bicg = 122.37 MB
+error = 802.5       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat30.mtx,72,643994,643994,6185006,0.023804,802.492,50,73.238422,0.000000,0.000000,ARMPL,643994,643994,6185006,73.238422,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/radiation.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/radiation.mtx
+radiation_bicg_armpl_d.exe
+max threads 72
+time read: 0.019543
+time coo to csr: 0.026167
+armpl armpl_spmat_create_csr_d = 0.00702038
+armpl optimize time = 0.234788
+time convert to format: 0.242421
+time warm up 0.070985
+eps = 4.72339e-13 eps_counter = 4.72339e-05
+SpMV: calls = 100, time = 0.009716 s, GFLOPs = 157.224870, WS_standalone = 91.66 MB, WS_bicg = 105.28 MB
+error = 472.3       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/radiation.mtx,72,223104,223104,7637688,0.018983,472.339,50,88.257481,0.000000,0.000000,ARMPL,223104,223104,7637688,88.257481,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Stanford_Berkeley.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Stanford_Berkeley.mtx
+Stanford_Berkeley_bicg_armpl_d.exe
+max threads 72
+time read: 0.010428
+time coo to csr: 0.036053
+Adding 683446 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00780342
+armpl optimize time = 1.11659
+time convert to format: 1.124988
+time warm up 0.071021
+eps = 8.26708e-13 eps_counter = 8.26708e-05
+SpMV: calls = 100, time = 0.013471 s, GFLOPs = 122.732683, WS_standalone = 107.64 MB, WS_bicg = 149.36 MB
+error = 826.7       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Stanford_Berkeley.mtx,72,683446,683446,8266822,0.028450,826.708,50,97.213413,0.000000,0.000000,ARMPL,683446,683446,8266822,97.213413,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/shipsec1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/shipsec1.mtx
+shipsec1_bicg_armpl_d.exe
+max threads 72
+time read: 0.010832
+time coo to csr: 0.021373
+armpl armpl_spmat_create_csr_d = 0.0065255
+armpl optimize time = 0.0956778
+time convert to format: 0.102844
+time warm up 0.072250
+eps = 3.75332e-13 eps_counter = 3.75332e-05
+SpMV: calls = 100, time = 0.006518 s, GFLOPs = 239.752065, WS_standalone = 92.10 MB, WS_bicg = 100.70 MB
+error = 375.3       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/shipsec1.mtx,72,140874,140874,7813404,0.015809,375.332,50,89.954708,0.000000,0.000000,ARMPL,140874,140874,7813404,89.954708,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/PR02R.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/PR02R.mtx
+PR02R_bicg_armpl_d.exe
+max threads 72
+time read: 0.029882
+time coo to csr: 0.021879
+armpl armpl_spmat_create_csr_d = 0.00760467
+armpl optimize time = 0.10209
+time convert to format: 0.110327
+time warm up 0.071155
+eps = 4.01335e-13 eps_counter = 4.01335e-05
+SpMV: calls = 100, time = 0.006698 s, GFLOPs = 244.411211, WS_standalone = 96.74 MB, WS_bicg = 106.57 MB
+error = 401.3       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/PR02R.mtx,72,161070,161070,8185136,0.017133,401.335,50,94.285885,0.000000,0.000000,ARMPL,161070,161070,8185136,94.285885,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/CurlCurl_2.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/CurlCurl_2.mtx
+CurlCurl_2_bicg_armpl_d.exe
+max threads 72
+time read: 0.016790
+time coo to csr: 0.023542
+armpl armpl_spmat_create_csr_d = 0.00847642
+armpl optimize time = 0.133567
+time convert to format: 0.142683
+time warm up 0.070953
+eps = 8.9807e-13 eps_counter = 8.9807e-05
+SpMV: calls = 100, time = 0.015295 s, GFLOPs = 116.661944, WS_standalone = 117.49 MB, WS_bicg = 166.71 MB
+error = 898.1       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/CurlCurl_2.mtx,72,806529,806529,8921789,0.031893,898.07,50,105.178440,0.000000,0.000000,ARMPL,806529,806529,8921789,105.178440,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/gupta3.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/gupta3.mtx
+gupta3_bicg_armpl_d.exe
+max threads 72
+time read: 0.006707
+time coo to csr: 0.028666
+armpl armpl_spmat_create_csr_d = 0.008768
+armpl optimize time = 0.117644
+time convert to format: 0.127135
+time warm up 0.070345
+eps = 1.29549e-13 eps_counter = 1.29549e-05
+SpMV: calls = 100, time = 0.007739 s, GFLOPs = 240.933487, WS_standalone = 107.02 MB, WS_bicg = 108.04 MB
+error = 17.97       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/gupta3.mtx,72,16783,16783,9323427,0.016867,17.9744,50,106.762180,0.000000,0.000000,ARMPL,16783,16783,9323427,106.762180,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 43850 Sensor 1 39850  Sensor 2 43850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mip1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mip1.mtx
+mip1_bicg_armpl_d.exe
+max threads 72
+time read: 0.007527
+time coo to csr: 0.025976
+armpl armpl_spmat_create_csr_d = 0.00983206
+armpl optimize time = 0.226529
+time convert to format: 0.237162
+time warm up 0.068944
+eps = 2.57804e-13 eps_counter = 2.57804e-05
+SpMV: calls = 100, time = 0.009979 s, GFLOPs = 207.499209, WS_standalone = 119.75 MB, WS_bicg = 123.80 MB
+error = 13.17       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/mip1.mtx,72,66463,66463,10352819,0.019159,13.1662,50,118.732151,0.000000,0.000000,ARMPL,66463,66463,10352819,118.732151,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rail4284.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rail4284.mtx
+rail4284_bicg_armpl_d.exe
+max threads 72
+time read: 0.016405
+time coo to csr: 0.051484
+armpl armpl_spmat_create_csr_d = 0.0107968
+armpl optimize time = 0.167114
+time convert to format: 0.178580
+
+	ERROR
+[tid 3591368] bench_bicg.cpp
+ => bench(): line [659]
+      >  the matrix must be square
+      >  errno [11]: Resource temporarily unavailable
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pwtk.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pwtk.mtx
+pwtk_bicg_armpl_d.exe
+max threads 72
+time read: 0.019402
+time coo to csr: 0.026044
+armpl armpl_spmat_create_csr_d = 0.0113588
+armpl optimize time = 0.139251
+time convert to format: 0.151446
+time warm up 0.070997
+eps = 4.66817e-13 eps_counter = 4.66817e-05
+SpMV: calls = 100, time = 0.010092 s, GFLOPs = 230.562096, WS_standalone = 137.30 MB, WS_bicg = 150.60 MB
+error = 466.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/pwtk.mtx,72,217918,217918,11634424,0.021378,466.817,50,133.976711,0.000000,0.000000,ARMPL,217918,217918,11634424,133.976711,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/crankseg_2.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/crankseg_2.mtx
+crankseg_2_bicg_armpl_d.exe
+max threads 72
+time read: 0.019517
+time coo to csr: 0.030318
+armpl armpl_spmat_create_csr_d = 0.0138052
+armpl optimize time = 0.180431
+time convert to format: 0.195236
+time warm up 0.067330
+eps = 2.52662e-13 eps_counter = 2.52662e-05
+SpMV: calls = 100, time = 0.018034 s, GFLOPs = 156.914096, WS_standalone = 163.14 MB, WS_bicg = 167.03 MB
+error = 183.5       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/crankseg_2.mtx,72,63838,63838,14148858,0.027320,183.509,50,162.164356,0.000000,0.000000,ARMPL,63838,63838,14148858,162.164356,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Si41Ge41H72.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Si41Ge41H72.mtx
+Si41Ge41H72_bicg_armpl_d.exe
+max threads 72
+time read: 0.028346
+time coo to csr: 0.032180
+armpl armpl_spmat_create_csr_d = 0.0149134
+armpl optimize time = 0.186593
+time convert to format: 0.202552
+time warm up 0.066882
+eps = 4.30858e-13 eps_counter = 4.30858e-05
+SpMV: calls = 100, time = 0.023623 s, GFLOPs = 127.088267, WS_standalone = 175.33 MB, WS_bicg = 186.66 MB
+error = 430.9       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Si41Ge41H72.mtx,72,185639,185639,15011265,0.034602,430.858,50,172.498455,0.000000,0.000000,ARMPL,185639,185639,15011265,172.498455,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b2383.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b2383.mtx
+TSOPF_RS_b2383_bicg_armpl_d.exe
+max threads 72
+time read: 0.058644
+time coo to csr: 0.038756
+Adding 2329 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0162534
+armpl optimize time = 0.192904
+time convert to format: 0.210297
+time warm up 0.066201
+eps = 1.95243e-13 eps_counter = 1.95243e-05
+SpMV: calls = 100, time = 0.021235 s, GFLOPs = 152.326428, WS_standalone = 185.82 MB, WS_bicg = 188.14 MB
+error = 195.2       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/TSOPF_RS_b2383.mtx,72,38120,38120,16173498,0.030908,195.243,50,185.236416,0.000000,0.000000,ARMPL,38120,38120,16173498,185.236416,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/in-2004.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/in-2004.mtx
+in-2004_bicg_armpl_d.exe
+max threads 72
+time read: 0.023438
+time coo to csr: 0.033138
+Adding 1005498 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0184494
+armpl optimize time = 1.02556
+time convert to format: 1.045355
+time warm up 0.062850
+eps = 1.17597e-12 eps_counter = 0.000117597
+SpMV: calls = 100, time = 0.062353 s, GFLOPs = 57.487770, WS_standalone = 231.48 MB, WS_bicg = 315.89 MB
+error = 1176        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/in-2004.mtx,72,1382908,1382908,17922551,0.097601,1175.97,50,210.382698,0.000000,0.000000,ARMPL,1382908,1382908,17922551,210.382698,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Ga41As41H72.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Ga41As41H72.mtx
+Ga41As41H72_bicg_armpl_d.exe
+max threads 72
+time read: 0.033966
+time coo to csr: 0.033920
+armpl armpl_spmat_create_csr_d = 0.018718
+armpl optimize time = 0.231921
+time convert to format: 0.252055
+time warm up 0.062911
+eps = 5.1778e-13 eps_counter = 5.1778e-05
+SpMV: calls = 100, time = 0.040770 s, GFLOPs = 90.696877, WS_standalone = 216.70 MB, WS_bicg = 233.06 MB
+error = 517.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/Ga41As41H72.mtx,72,268096,268096,18488476,0.053856,517.78,50,212.606525,0.000000,0.000000,ARMPL,268096,268096,18488476,212.606525,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/eu-2005.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/eu-2005.mtx
+eu-2005_bicg_armpl_d.exe
+max threads 72
+time read: 0.024566
+time coo to csr: 0.037387
+Adding 361237 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0201005
+armpl optimize time = 0.682131
+time convert to format: 0.703563
+time warm up 0.061285
+eps = 9.28797e-13 eps_counter = 9.28797e-05
+SpMV: calls = 100, time = 0.057729 s, GFLOPs = 67.890832, WS_standalone = 240.72 MB, WS_bicg = 293.37 MB
+error = 928.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/eu-2005.mtx,72,862664,862664,19596377,0.082662,928.797,50,227.553543,0.000000,0.000000,ARMPL,862664,862664,19596377,227.553543,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/wikipedia-20051105.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/wikipedia-20051105.mtx
+wikipedia-20051105_bicg_armpl_d.exe
+max threads 72
+time read: 0.026269
+time coo to csr: 0.049518
+Adding 1617801 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.022224
+armpl optimize time = 0.88364
+time convert to format: 0.907487
+time warm up 0.068996
+eps = 1.27867e-12 eps_counter = 0.000127867
+SpMV: calls = 100, time = 0.103701 s, GFLOPs = 41.216157, WS_standalone = 275.76 MB, WS_bicg = 375.55 MB
+error = 1279        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/wikipedia-20051105.mtx,72,1634989,1634989,21370879,0.148349,1278.67,50,250.807293,0.000000,0.000000,ARMPL,1634989,1634989,21370879,250.807293,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/kron_g500-logn18.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/kron_g500-logn18.mtx
+kron_g500-logn18_bicg_armpl_d.exe
+max threads 72
+time read: 0.019939
+time coo to csr: 0.047891
+Adding 261608 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.021869
+armpl optimize time = 0.491015
+time convert to format: 0.514513
+time warm up 0.064139
+eps = 5.12e-13 eps_counter = 5.12e-05
+SpMV: calls = 100, time = 0.078927 s, GFLOPs = 54.296988, WS_standalone = 250.22 MB, WS_bicg = 266.22 MB
+error = 512         
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/kron_g500-logn18.mtx,72,262144,262144,21427516,0.093702,512,50,246.218464,0.000000,0.000000,ARMPL,262144,262144,21427516,246.218464,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat31.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat31.mtx
+rajat31_bicg_armpl_d.exe
+max threads 72
+time read: 0.060474
+time coo to csr: 0.032990
+Adding 1251 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0222871
+armpl optimize time = 0.29914
+time convert to format: 0.322950
+time warm up 0.063327
+eps = 2.16564e-12 eps_counter = 0.000216564
+SpMV: calls = 100, time = 0.100386 s, GFLOPs = 40.478763, WS_standalone = 321.97 MB, WS_bicg = 608.23 MB
+error = 2166        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/rajat31.mtx,72,4690002,4690002,20317504,0.251335,2165.64,50,250.406322,0.000000,0.000000,ARMPL,4690002,4690002,20317504,250.406322,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/human_gene1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/human_gene1.mtx
+human_gene1_bicg_armpl_d.exe
+max threads 72
+time read: 0.042150
+time coo to csr: 0.057216
+armpl armpl_spmat_create_csr_d = 0.0251298
+armpl optimize time = 0.297365
+time convert to format: 0.324236
+time warm up 0.062301
+eps = 1.49275e-13 eps_counter = 1.49275e-05
+SpMV: calls = 100, time = 0.065800 s, GFLOPs = 74.984173, WS_standalone = 282.75 MB, WS_bicg = 284.11 MB
+error = 34.97       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/human_gene1.mtx,72,22283,22283,24669643,0.077221,34.9673,50,282.406666,0.000000,0.000000,ARMPL,22283,22283,24669643,282.406666,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/delaunay_n22.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/delaunay_n22.mtx
+delaunay_n22_bicg_armpl_d.exe
+max threads 72
+time read: 0.019670
+time coo to csr: 0.052769
+Adding 4194304 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0315468
+armpl optimize time = 0.56566
+time convert to format: 0.598986
+time warm up 0.063250
+eps = 2.048e-12 eps_counter = 0.0002048
+SpMV: calls = 100, time = 0.210142 s, GFLOPs = 27.943034, WS_standalone = 416.00 MB, WS_bicg = 672.00 MB
+error = 215.3       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/delaunay_n22.mtx,72,4194304,4194304,29360042,0.340184,215.334,50,351.999020,0.000000,0.000000,ARMPL,4194304,4194304,29360042,351.999020,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/GL7d20.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/GL7d20.mtx
+GL7d20_bicg_armpl_d.exe
+max threads 72
+time read: 0.051565
+time coo to csr: 0.059951
+Adding 1437483 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0328753
+armpl optimize time = 0.45542
+time convert to format: 0.490474
+
+	ERROR
+[tid 3592629] bench_bicg.cpp
+ => bench(): line [659]
+      >  the matrix must be square
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 63000 asic 63000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/sx-stackoverflow.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/sx-stackoverflow.mtx
+sx-stackoverflow_bicg_armpl_d.exe
+max threads 72
+time read: 0.056651
+time coo to csr: 0.076302
+Adding 1244211 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0399427
+armpl optimize time = 4.64805
+time convert to format: 4.690676
+time warm up 0.069264
+eps = 1.61306e-12 eps_counter = 0.000161306
+SpMV: calls = 100, time = 0.236565 s, GFLOPs = 31.684808, WS_standalone = 478.53 MB, WS_bicg = 637.34 MB
+error = 1613        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/sx-stackoverflow.mtx,72,2601977,2601977,37477661,0.321678,1613.06,50,438.823551,0.000000,0.000000,ARMPL,2601977,2601977,37477661,438.823551,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dgreen.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dgreen.mtx
+dgreen_bicg_armpl_d.exe
+max threads 72
+time read: 0.091938
+time coo to csr: 0.066866
+armpl armpl_spmat_create_csr_d = 0.0407813
+armpl optimize time = 0.525375
+time convert to format: 0.568581
+time warm up 0.061966
+eps = 1.09572e-12 eps_counter = 0.000109572
+SpMV: calls = 100, time = 0.146143 s, GFLOPs = 52.359615, WS_standalone = 460.75 MB, WS_bicg = 534.03 MB
+error = 1096        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dgreen.mtx,72,1200611,1200611,38259877,0.179951,1095.72,50,442.429516,0.000000,0.000000,ARMPL,1200611,1200611,38259877,442.429516,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ldoor.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ldoor.mtx
+ldoor_bicg_armpl_d.exe
+max threads 72
+time read: 0.070928
+time coo to csr: 0.051522
+armpl armpl_spmat_create_csr_d = 0.0492557
+armpl optimize time = 0.575641
+time convert to format: 0.628343
+time warm up 0.060339
+eps = 9.75809e-13 eps_counter = 9.75809e-05
+SpMV: calls = 100, time = 0.157304 s, GFLOPs = 59.149925, WS_standalone = 550.57 MB, WS_bicg = 608.69 MB
+error = 975.8       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/ldoor.mtx,72,952203,952203,46522475,0.187430,975.809,50,536.039845,0.000000,0.000000,ARMPL,952203,952203,46522475,536.039845,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dielFilterV2real.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dielFilterV2real.mtx
+dielFilterV2real_bicg_armpl_d.exe
+max threads 72
+time read: 0.096099
+time coo to csr: 0.056239
+armpl armpl_spmat_create_csr_d = 0.0511675
+armpl optimize time = 0.594587
+time convert to format: 0.648753
+time warm up 0.061598
+eps = 1.07585e-12 eps_counter = 0.000107585
+SpMV: calls = 100, time = 0.163930 s, GFLOPs = 59.219299, WS_standalone = 577.56 MB, WS_bicg = 648.21 MB
+error = 1076        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/dielFilterV2real.mtx,72,1157456,1157456,48538952,0.207181,1075.85,50,559.899570,0.000000,0.000000,ARMPL,1157456,1157456,48538952,559.899570,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 39850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/circuit5M.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/circuit5M.mtx
+circuit5M_bicg_armpl_d.exe
+max threads 72
+time read: 0.213753
+time coo to csr: 0.165307
+Adding 1879 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0652692
+armpl optimize time = 5.05497
+time convert to format: 5.124651
+time warm up 0.062842
+eps = 2.35761e-12 eps_counter = 0.000235761
+SpMV: calls = 100, time = 0.276713 s, GFLOPs = 43.023715, WS_standalone = 787.24 MB, WS_bicg = 1126.49 MB
+error = 2358        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/circuit5M.mtx,72,5558326,5558326,59526170,0.466925,2357.61,50,702.426289,0.000000,0.000000,ARMPL,5558326,5558326,59526170,702.426289,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/soc-LiveJournal1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/soc-LiveJournal1.mtx
+soc-LiveJournal1_bicg_armpl_d.exe
+max threads 72
+time read: 0.089597
+time coo to csr: 0.122814
+Adding 4329189 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0806878
+armpl optimize time = 3.02102
+time convert to format: 3.106808
+time warm up 0.069575
+eps = 2.20172e-12 eps_counter = 0.000220172
+SpMV: calls = 100, time = 0.472727 s, GFLOPs = 31.021290, WS_standalone = 931.57 MB, WS_bicg = 1227.45 MB
+error = 2202        
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/soc-LiveJournal1.mtx,72,4847571,4847571,73322962,0.640240,2201.72,50,857.606728,0.000000,0.000000,ARMPL,4847571,4847571,73322962,857.606728,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 61000 asic 61000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bone010.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bone010.mtx
+bone010_bicg_armpl_d.exe
+max threads 72
+time read: 0.082881
+time coo to csr: 0.063909
+armpl armpl_spmat_create_csr_d = 0.0768552
+armpl optimize time = 0.603733
+time convert to format: 0.685460
+time warm up 0.063669
+eps = 9.93329e-13 eps_counter = 9.93329e-05
+SpMV: calls = 100, time = 0.195250 s, GFLOPs = 73.409847, WS_standalone = 838.98 MB, WS_bicg = 899.20 MB
+error = 993.3       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/bone010.mtx,72,986703,986703,71666325,0.225848,993.329,50,823.919979,0.000000,0.000000,ARMPL,986703,986703,71666325,823.919979,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/audikw_1.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/audikw_1.mtx
+audikw_1_bicg_armpl_d.exe
+max threads 72
+time read: 0.130935
+time coo to csr: 0.073428
+armpl armpl_spmat_create_csr_d = 0.0823729
+armpl optimize time = 0.615688
+time convert to format: 0.703251
+time warm up 0.063773
+eps = 9.7144e-13 eps_counter = 9.7144e-05
+SpMV: calls = 100, time = 0.282036 s, GFLOPs = 55.065138, WS_standalone = 906.65 MB, WS_bicg = 964.25 MB
+error = 971.4       
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/audikw_1.mtx,72,943695,943695,77651847,0.320045,971.44,50,892.254780,0.000000,0.000000,ARMPL,943695,943695,77651847,892.254780,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 61000 asic 61000 
+File: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cage15.mtx
+------------------------
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cage15.mtx
+cage15_bicg_armpl_d.exe
+max threads 72
+time read: 0.275840
+time coo to csr: 0.117184
+armpl armpl_spmat_create_csr_d = 0.107437
+armpl optimize time = 0.646774
+time convert to format: 0.760725
+time warm up 0.062695
+eps = 2.27043e-12 eps_counter = 0.000227043
+SpMV: calls = 100, time = 0.407266 s, GFLOPs = 48.714860, WS_standalone = 1233.57 MB, WS_bicg = 1548.20 MB
+error = 5.529e-13   
+/local/pmpakos/SpMV-Research/benchmark_code/BENCH/../../validation_matrices/cage15.mtx,72,5154859,5154859,99199551,0.587906,5.52933e-13,50,1154.912998,0.000000,0.000000,ARMPL,5154859,5154859,99199551,1154.912998,1.000000
+
+

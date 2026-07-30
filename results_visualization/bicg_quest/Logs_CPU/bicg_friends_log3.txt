@@ -1,0 +1,805 @@
+program: /local/pmpakos/SpMV-Research/benchmark_code/BENCH/src/bicg_armpl_d.exe
+number of matrices: 50
+max threads 72
+matrix_name,num_threads,csr_m,csr_n,csr_nnz,time,error,num_iterations,csr_mem_footprint,W_avg,J_estimated,format_name,m,n,nnz,mem_footprint,mem_ratio
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 170998 170998 5.60788 4.39216 normal random 0.20808 61.94716 0.80336 0.63302 14
+------------------------
+170998
+170998_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.007012
+Adding 170992 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00120691
+armpl optimize time = 0.0213476
+time convert to format: 0.022714
+time warm up 0.069829
+eps = 4.13519e-13 eps_counter = 4.13519e-05
+SpMV: calls = 100, time = 0.002908 s, GFLOPs = 77.659231, WS_standalone = 16.18 MB, WS_bicg = 26.62 MB
+error = 178.3       
+170998_170998_958231_38319.8_16894.6_0.0152072_0.12123,72,170998,170998,1129223,0.011462,178.307,50,13.575241,0.000000,0.000000,ARMPL,170998,170998,1129223,13.575241,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 206500 206500 6.16653 4.43586 normal random 0.00191 4.70372 0.17669 0.33051 14
+------------------------
+206500
+206500_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.010500
+Adding 206496 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00196794
+armpl optimize time = 0.0287703
+time convert to format: 0.030875
+time warm up 0.069214
+eps = 4.54423e-13 eps_counter = 4.54423e-05
+SpMV: calls = 100, time = 0.002348 s, GFLOPs = 125.971934, WS_standalone = 20.87 MB, WS_bicg = 33.47 MB
+error = 0.244       
+206500_206500_1272606_350.206_119.389_0.0221227_0.0496605,72,206500,206500,1479102,0.011608,0.243954,50,17.714718,0.000000,0.000000,ARMPL,206500,206500,1479102,17.714718,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 21200 21200 70.22491 4.4289 normal random 0.0662 0.1392 1.916 0.96302 14
+------------------------
+21200
+21200_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.005551
+Adding 21097 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00138522
+armpl optimize time = 0.0191937
+time convert to format: 0.020708
+time warm up 0.068735
+eps = 1.45602e-13 eps_counter = 1.45602e-05
+SpMV: calls = 100, time = 0.002185 s, GFLOPs = 138.061888, WS_standalone = 17.67 MB, WS_bicg = 18.96 MB
+error = 121.2       
+21200_21200_1487478_1723.4_633.294_0.0574058_0.0875669,72,21200,21200,1508575,0.010426,121.187,50,17.345146,0.000000,0.000000,ARMPL,21200,21200,1508575,17.345146,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 131072 131072 11.11989 3.34422 normal random 0.00743 1.06261 0.03395 0.05174 14
+------------------------
+131072
+131072_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.008231
+Adding 131061 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0017505
+armpl optimize time = 0.0255398
+time convert to format: 0.027418
+time warm up 0.067712
+eps = 3.62039e-13 eps_counter = 3.62039e-05
+SpMV: calls = 100, time = 0.002153 s, GFLOPs = 147.523978, WS_standalone = 20.68 MB, WS_bicg = 28.68 MB
+error = 362         
+131072_131072_1457203_961.606_132.313_0.0117042_0.00333453,72,131072,131072,1588264,0.010179,362.039,50,18.676243,0.000000,0.000000,ARMPL,131072,131072,1588264,18.676243,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 38744 38744 45.72894 38.39531 normal random 0.02989 1.22876 1.26263 0.85373 14
+------------------------
+38744
+38744_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.008689
+Adding 38718 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00183408
+armpl optimize time = 0.0234587
+time convert to format: 0.025443
+time warm up 0.068500
+eps = 1.96835e-13 eps_counter = 1.96835e-05
+SpMV: calls = 100, time = 0.002238 s, GFLOPs = 158.648401, WS_standalone = 21.05 MB, WS_bicg = 23.42 MB
+error = 196.8       
+38744_38744_1736329_958.242_271.962_0.0488236_0.0347074,72,38744,38744,1775047,0.009845,196.835,50,20.461601,0.000000,0.000000,ARMPL,38744,38744,1775047,20.461601,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 14000 14000 132.36457 36.49446 normal random 0.98354 1.22114 0.02223 0.03682 14
+------------------------
+14000
+14000_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.009577
+Adding 13874 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00129427
+armpl optimize time = 0.0230261
+time convert to format: 0.024466
+time warm up 0.067498
+eps = 1.18322e-13 eps_counter = 1.18322e-05
+SpMV: calls = 100, time = 0.002706 s, GFLOPs = 137.850251, WS_standalone = 21.61 MB, WS_bicg = 22.47 MB
+error = 118.3       
+14000_14000_1851395_13743.1_236.919_0.00961866_0.00262198,72,14000,14000,1865269,0.010891,118.32,50,21.399719,0.000000,0.000000,ARMPL,14000,14000,1865269,21.399719,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 525825 525825 3.99415 0.07632 normal random 0.00094 0.00146 0.4983 0.99891 14
+------------------------
+525825
+525825_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.007496
+Adding 525824 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00286339
+armpl optimize time = 0.0380797
+time convert to format: 0.041214
+time warm up 0.066874
+eps = 7.25138e-13 eps_counter = 7.25138e-05
+SpMV: calls = 100, time = 0.002798 s, GFLOPs = 187.924091, WS_standalone = 40.12 MB, WS_bicg = 72.21 MB
+error = 2.839e-13   
+525825_525825_2103300_505.766_235.326_0.0299357_0.130785,72,525825,525825,2629124,0.014748,2.83877e-13,50,32.093803,0.000000,0.000000,ARMPL,525825,525825,2629124,32.093803,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 46835 46835 50.68861 27.7806 normal random 0.18777 1.30242 1.71972 0.86641 14
+------------------------
+46835
+46835_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.009399
+Adding 46782 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0022847
+armpl optimize time = 0.0312393
+time convert to format: 0.033841
+time warm up 0.067022
+eps = 2.16414e-13 eps_counter = 2.16414e-05
+SpMV: calls = 100, time = 0.003100 s, GFLOPs = 155.994736, WS_standalone = 28.56 MB, WS_bicg = 31.42 MB
+error = 216.4       
+46835_46835_2371001_7354.04_3001.22_0.0171087_0.0903248,72,46835,46835,2417783,0.011187,216.414,50,27.847996,0.000000,0.000000,ARMPL,46835,46835,2417783,27.847996,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 121192 121192 21.65432 13.79266 normal random 0.62306 1.91841 1.09583 0.6334 14
+------------------------
+121192
+121192_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.016707
+Adding 121173 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00230029
+armpl optimize time = 0.0401846
+time convert to format: 0.042753
+time warm up 0.067519
+eps = 3.48126e-13 eps_counter = 3.48126e-05
+SpMV: calls = 100, time = 0.005160 s, GFLOPs = 106.365081, WS_standalone = 33.71 MB, WS_bicg = 41.11 MB
+error = 348.1       
+121192_121192_2622828_65112.9_20744.7_0.00524318_0.0695909,72,121192,121192,2744001,0.013323,348.126,50,31.864914,0.000000,0.000000,ARMPL,121192,121192,2744001,31.864914,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 204316 204316 13.93052 1.28746 normal random 0.44461 0.4357 1.00962 0.54367 14
+------------------------
+204316
+204316_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.015446
+Adding 204299 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0026649
+armpl optimize time = 0.0462846
+time convert to format: 0.049222
+time warm up 0.067923
+eps = 4.52013e-13 eps_counter = 4.52013e-05
+SpMV: calls = 100, time = 0.006017 s, GFLOPs = 101.383563, WS_standalone = 38.80 MB, WS_bicg = 51.27 MB
+error = 298.8       
+204316_204316_2845844_87972.9_20416.9_0.000341807_0.0128395,72,204316,204316,3050143,0.014989,298.768,50,35.685524,0.000000,0.000000,ARMPL,204316,204316,3050143,35.685524,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1000005 1000005 3.10552 17.74165 normal random 0.15246 1512.43391 0.31568 0.9361 14
+------------------------
+1000005
+1000005_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.017714
+Adding 1000000 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00423376
+armpl optimize time = 0.261021
+time convert to format: 0.265629
+time warm up 0.069467
+eps = 1e-12 eps_counter = 0.0001
+SpMV: calls = 100, time = 0.007381 s, GFLOPs = 112.077663, WS_standalone = 66.41 MB, WS_bicg = 127.44 MB
+error = 1.253e-09   
+1000005_1000005_3136144_135382_75173.2_0.0245246_0.154456,72,1000005,1000005,4136144,0.023894,1.25298e-09,50,51.149132,0.000000,0.000000,ARMPL,1000005,1000005,4136144,51.149132,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 62451 62451 64.16844 9.83938 normal random 0.0086 0.21555 1.61575 0.91473 14
+------------------------
+62451
+62451_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.011513
+Adding 62386 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0038545
+armpl optimize time = 0.0509148
+time convert to format: 0.055117
+time warm up 0.070016
+eps = 2.49902e-13 eps_counter = 2.49902e-05
+SpMV: calls = 100, time = 0.003082 s, GFLOPs = 263.971055, WS_standalone = 47.74 MB, WS_bicg = 51.56 MB
+error = 227.3       
+62451_62451_4005505_454.378_131.588_0.155678_0.060404,72,62451,62451,4067891,0.010946,227.293,50,46.791553,0.000000,0.000000,ARMPL,62451,62451,4067891,46.791553,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 682862 682862 5.66992 659.80736 normal random 0.37466 72034.24946 0.66901 0.82547 14
+------------------------
+682862
+682862_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.490118
+Adding 682859 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00527834
+armpl optimize time = 1.29031
+time convert to format: 1.296047
+time warm up 0.071266
+eps = 8.26355e-13 eps_counter = 8.26355e-05
+SpMV: calls = 100, time = 0.012014 s, GFLOPs = 79.372827, WS_standalone = 67.59 MB, WS_bicg = 109.27 MB
+error = 0.0001842   
+682862_682862_4084929_168195_117761_0.0945245_0.292425,72,682862,682862,4767788,0.025294,0.000184196,50,57.167919,0.000000,0.000000,ARMPL,682862,682862,4767788,57.167919,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1393383 1393383 2.75826 1.03703 normal random 0.00494 3.35056 0.21025 0.30095 14
+------------------------
+1393383
+1393383_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.023466
+Adding 1393382 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0075489
+armpl optimize time = 0.118641
+time convert to format: 0.126600
+time warm up 0.070568
+eps = 1.18042e-12 eps_counter = 0.000118042
+SpMV: calls = 100, time = 0.016867 s, GFLOPs = 63.549741, WS_standalone = 87.91 MB, WS_bicg = 172.96 MB
+error = 4.105e-13   
+1393383_1393383_3966125_5743.62_3526.15_0.039568_0.19162,72,1393383,1393383,5359507,0.045289,4.10451e-13,50,66.650028,0.000000,0.000000,ARMPL,1393383,1393383,5359507,66.650028,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 36417 36417 119.30596 22.30227 normal random 0.12994 0.70989 1.83776 0.93173 14
+------------------------
+36417
+36417_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.011030
+Adding 36335 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00448723
+armpl optimize time = 0.0533874
+time convert to format: 0.058164
+time warm up 0.068700
+eps = 1.90832e-13 eps_counter = 1.90832e-05
+SpMV: calls = 100, time = 0.003610 s, GFLOPs = 242.249775, WS_standalone = 50.74 MB, WS_bicg = 52.96 MB
+error = 77.11       
+36417_36417_4336875_3824.96_1378.04_0.0378263_0.0268373,72,36417,36417,4373210,0.011794,77.1082,50,50.186340,0.000000,0.000000,ARMPL,36417,36417,4373210,50.186340,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 42138 42138 104.73798 102.44317 normal random 0.6067 1.2941 1.92346 0.99215 14
+------------------------
+42138
+42138_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.012702
+Adding 41971 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00311082
+armpl optimize time = 0.0522087
+time convert to format: 0.055678
+time warm up 0.069575
+eps = 2.05275e-13 eps_counter = 2.05275e-05
+SpMV: calls = 100, time = 0.004000 s, GFLOPs = 210.952621, WS_standalone = 49.08 MB, WS_bicg = 51.65 MB
+error = 205.3       
+42138_42138_4176699_24963.4_10306.2_0.00958151_0.0685673,72,42138,42138,4218670,0.011578,205.275,50,48.439594,0.000000,0.000000,ARMPL,42138,42138,4218670,48.439594,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 68121 68121 78.94425 813.77064 normal random 0.04536 861.90012 0.89599 0.99371 14
+------------------------
+68121
+68121_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.097121
+Adding 67961 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00493395
+armpl optimize time = 0.138723
+time convert to format: 0.144163
+time warm up 0.070484
+eps = 2.61e-13 eps_counter = 2.61e-05
+SpMV: calls = 100, time = 0.005025 s, GFLOPs = 217.859363, WS_standalone = 63.94 MB, WS_bicg = 68.10 MB
+error = 261         
+68121_68121_5405960_2118.48_1333.57_0.0463031_0.0621684,72,68121,68121,5473921,0.013783,261,50,62.903919,0.000000,0.000000,ARMPL,68121,68121,5473921,62.903919,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 83334 83334 72.12518 13.35613 normal random 0.06981 0.12305 1.71335 0.88263 14
+------------------------
+83334
+83334_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.015087
+Adding 83294 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00676198
+armpl optimize time = 0.07578
+time convert to format: 0.082978
+time warm up 0.069944
+eps = 2.88676e-13 eps_counter = 2.88676e-05
+SpMV: calls = 100, time = 0.005224 s, GFLOPs = 233.104245, WS_standalone = 71.27 MB, WS_bicg = 76.35 MB
+error = 253.6       
+83334_83334_6005175_4900.62_1556.95_0.0170662_0.0144733,72,83334,83334,6088469,0.013746,253.568,50,69.994896,0.000000,0.000000,ARMPL,83334,83334,6088469,69.994896,1.000000
+Temps: Composite 25850 Composite 26850 Composite 42850 Sensor 1 38850  Sensor 2 42850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1134890 1134890 5.26505 59.2134 normal random 0.1949 5460.30086 0.28207 0.43917 14
+------------------------
+1134890
+1134890_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.046965
+Adding 1134880 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00860867
+armpl optimize time = 0.67217
+time convert to format: 0.681363
+time warm up 0.069849
+eps = 1.06531e-12 eps_counter = 0.000106531
+SpMV: calls = 100, time = 0.029826 s, GFLOPs = 47.676499, WS_standalone = 103.01 MB, WS_bicg = 172.28 MB
+error = 0.3876      
+1134890_1134890_5975157_206614_66643.1_0.000480594_0.0211803,72,1134890,1134890,7110037,0.052939,0.387619,50,85.697182,0.000000,0.000000,ARMPL,1134890,1134890,7110037,85.697182,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 643994 643994 9.26954 784.57986 normal random 0.37608 47421.80439 0.7909 0.65833 14
+------------------------
+643994
+643994_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.864235
+Adding 643988 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0087847
+armpl optimize time = 1.32419
+time convert to format: 1.333569
+time warm up 0.069833
+eps = 8.02492e-13 eps_counter = 8.02492e-05
+SpMV: calls = 100, time = 0.017304 s, GFLOPs = 79.094840, WS_standalone = 90.60 MB, WS_bicg = 129.91 MB
+error = 802.5       
+643994_643994_6199473_181423_89278.8_0.0320484_0.175914,72,643994,643994,6843461,0.032705,802.492,50,80.773842,0.000000,0.000000,ARMPL,643994,643994,6843461,80.773842,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 223104 223104 34.23376 19.70372 normal random 0.59656 101.17985 0.02653 0.13584 14
+------------------------
+223104
+223104_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.027170
+Adding 223070 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00794528
+armpl optimize time = 0.180375
+time convert to format: 0.188946
+time warm up 0.068858
+eps = 4.72339e-13 eps_counter = 4.72339e-05
+SpMV: calls = 100, time = 0.021382 s, GFLOPs = 73.525721, WS_standalone = 94.21 MB, WS_bicg = 107.83 MB
+error = 472.3       
+223104_223104_7637554_132967_5544.75_0.000257849_0.000146804,72,223104,223104,7860624,0.031675,472.339,50,90.808781,0.000000,0.000000,ARMPL,223104,223104,7860624,90.808781,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 683446 683446 11.09579 332.3041 normal random 0.00712 7519.6876 1.3266 0.65266 14
+------------------------
+683446
+683446_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.278441
+Adding 683435 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0126125
+armpl optimize time = 0.459093
+time convert to format: 0.472396
+time warm up 0.072518
+eps = 8.26708e-13 eps_counter = 8.26708e-05
+SpMV: calls = 100, time = 0.013200 s, GFLOPs = 125.873597, WS_standalone = 108.11 MB, WS_bicg = 149.82 MB
+error = 826.7       
+683446_683446_7624055_3992.45_2235.51_0.0653679_0.239783,72,683446,683446,8307490,0.028911,826.708,50,97.678822,0.000000,0.000000,ARMPL,683446,683446,8307490,97.678822,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 140874 140874 55.46378 9.96733 normal random 0.04588 0.83904 1.71238 0.87344 14
+------------------------
+140874
+140874_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.019438
+Adding 140796 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00907165
+armpl optimize time = 0.10112
+time convert to format: 0.110800
+time warm up 0.070373
+eps = 3.75332e-13 eps_counter = 3.75332e-05
+SpMV: calls = 100, time = 0.007070 s, GFLOPs = 224.889571, WS_standalone = 93.67 MB, WS_bicg = 102.27 MB
+error = 237         
+140874_140874_7809480_5548.2_1811.29_0.0119754_0.0177163,72,140874,140874,7950276,0.016985,236.996,50,91.521084,0.000000,0.000000,ARMPL,140874,140874,7950276,91.521084,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 161070 161070 50.81726 13.7888 normal random 0.03959 0.81041 1.27954 0.86886 14
+------------------------
+161070
+161070_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.027094
+Adding 161040 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00968253
+armpl optimize time = 0.106699
+time convert to format: 0.117013
+time warm up 0.072591
+eps = 4.01335e-13 eps_counter = 4.01335e-05
+SpMV: calls = 100, time = 0.007857 s, GFLOPs = 212.277842, WS_standalone = 98.50 MB, WS_bicg = 108.34 MB
+error = 229.2       
+161070_161070_8177930_5097.07_1750.79_0.0116481_0.0145135,72,161070,161070,8338970,0.017960,229.194,50,96.046375,0.000000,0.000000,ARMPL,161070,161070,8338970,96.046375,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 806529 806529 11.06196 0.64513 normal random 0.02798 0.1752 0.71552 0.52413 14
+------------------------
+806529
+806529_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.036192
+Adding 806519 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0123893
+armpl optimize time = 0.150124
+time convert to format: 0.163177
+time warm up 0.069435
+eps = 8.9807e-13 eps_counter = 8.9807e-05
+SpMV: calls = 100, time = 0.022390 s, GFLOPs = 86.897335, WS_standalone = 126.71 MB, WS_bicg = 175.94 MB
+error = 898.1       
+806529_806529_8921672_22212.7_4753.18_0.000569974_0.00591774,72,806529,806529,9728191,0.040582,898.07,50,114.406979,0.000000,0.000000,ARMPL,806529,806529,9728191,114.406979,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 16783 16783 555.52803 1603.57634 normal random 0.57184 25.41091 1.90166 0.97675 14
+------------------------
+16783
+16783_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.098834
+Adding 16587 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0114084
+armpl optimize time = 0.126729
+time convert to format: 0.138926
+time warm up 0.069622
+eps = 1.29549e-13 eps_counter = 1.29549e-05
+SpMV: calls = 100, time = 0.008506 s, GFLOPs = 219.353167, WS_standalone = 107.08 MB, WS_bicg = 108.10 MB
+error = 129.5       
+16783_16783_9312277_6634.35_3128_0.0849123_0.157316,72,16783,16783,9328864,0.017136,129.549,50,106.824402,0.000000,0.000000,ARMPL,16783,16783,9328864,106.824402,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 66463 66463 155.76816 350.74432 normal random 0.59028 552.81517 1.9249 0.96147 14
+------------------------
+66463
+66463_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.048951
+Adding 66342 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.00996794
+armpl optimize time = 0.192008
+time convert to format: 0.202762
+time warm up 0.069232
+eps = 2.57804e-13 eps_counter = 2.57804e-05
+SpMV: calls = 100, time = 0.010537 s, GFLOPs = 198.251526, WS_standalone = 120.80 MB, WS_bicg = 124.86 MB
+error = 257.8       
+66463_66463_10378609_40147.6_9077.93_0.0047168_0.0223817,72,66463,66463,10444951,0.019079,257.804,50,119.786518,0.000000,0.000000,ARMPL,66463,66463,10444951,119.786518,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 4284 1096894 2633.9944 4209.25932 normal random 0.95554 19.65193 1.57627 0.26917 14
+------------------------
+4284
+4284_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.216727
+Adding 4284 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0109199
+armpl optimize time = 0.170761
+time convert to format: 0.182578
+
+	ERROR
+[tid 3581319] bench_bicg.cpp
+ => bench(): line [659]
+      >  the matrix must be square
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 217918 217918 53.389 4.7439 normal random 0.05932 1.66004 1.87835 0.94981 14
+------------------------
+217918
+217918_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.025693
+Adding 217902 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0136901
+armpl optimize time = 0.142265
+time convert to format: 0.156959
+time warm up 0.068335
+eps = 4.66817e-13 eps_counter = 4.66817e-05
+SpMV: calls = 100, time = 0.013041 s, GFLOPs = 181.702617, WS_standalone = 139.75 MB, WS_bicg = 153.05 MB
+error = 148.7       
+217918_217918_11630299_15847.7_6079.31_0.0220535_0.129469,72,217918,217918,11848201,0.023837,148.72,50,136.423195,0.000000,0.000000,ARMPL,217918,217918,11848201,136.423195,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 63838 63838 221.63692 95.8757 normal random 0.89463 14.44418 1.7315 0.86687 14
+------------------------
+63838
+63838_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.039141
+Adding 63612 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0142484
+armpl optimize time = 0.175306
+time convert to format: 0.190689
+time warm up 0.065678
+eps = 2.52662e-13 eps_counter = 2.52662e-05
+SpMV: calls = 100, time = 0.023263 s, GFLOPs = 122.197387, WS_standalone = 163.88 MB, WS_bicg = 167.77 MB
+error = 252.7       
+63838_63838_14149627_53825.3_5271.25_0.00415486_0.00169639,72,63838,63838,14213239,0.032783,252.662,50,162.901138,0.000000,0.000000,ARMPL,63838,63838,14213239,162.901138,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 185639 185639 80.86267 165.06342 normal random 0.19354 7.18672 1.26978 0.96317 14
+------------------------
+185639
+185639_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.061283
+Adding 185631 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0206778
+armpl optimize time = 0.187698
+time convert to format: 0.209344
+time warm up 0.065814
+eps = 4.30858e-13 eps_counter = 4.30858e-05
+SpMV: calls = 100, time = 0.026961 s, GFLOPs = 112.676546, WS_standalone = 177.37 MB, WS_bicg = 188.70 MB
+error = 430.9       
+185639_185639_15003763_20259_16307_0.206508_0.401966,72,185639,185639,15189394,0.037457,430.858,50,174.536980,0.000000,0.000000,ARMPL,185639,185639,15189394,174.536980,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 38120 38120 466.63918 484.2375 normal random 0.48326 1.31721 1.9799 0.92741 14
+------------------------
+38120
+38120_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.050873
+Adding 37730 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0177719
+armpl optimize time = 0.199621
+time convert to format: 0.218882
+time warm up 0.065633
+eps = 1.95243e-13 eps_counter = 1.95243e-05
+SpMV: calls = 100, time = 0.026638 s, GFLOPs = 123.551205, WS_standalone = 189.05 MB, WS_bicg = 191.37 MB
+error = 195.2       
+38120_38120_16417883_20514.3_7024.41_0.0363808_0.114866,72,38120,38120,16455613,0.035734,195.243,50,188.464966,0.000000,0.000000,ARMPL,38120,38120,16455613,188.464966,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1382908 1382908 12.23296 48.39901 normal random 0.0215 632.77976 1.50718 0.79266 14
+------------------------
+1382908
+1382908_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.079382
+Adding 1382902 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0247994
+armpl optimize time = 0.28653
+time convert to format: 0.312770
+time warm up 0.062560
+eps = 1.17597e-12 eps_counter = 0.000117597
+SpMV: calls = 100, time = 0.063240 s, GFLOPs = 57.891003, WS_standalone = 235.86 MB, WS_bicg = 320.27 MB
+error = 1176        
+1382908_1382908_16922141_32402.8_14618.3_0.0279012_0.162607,72,1382908,1382908,18305043,0.100539,1175.97,50,214.759972,0.000000,0.000000,ARMPL,1382908,1382908,18305043,214.759972,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 268096 268096 68.96215 105.38755 normal random 0.17227 8.26155 1.18402 0.96958 14
+------------------------
+268096
+268096_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.098239
+Adding 268066 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0244865
+armpl optimize time = 0.249581
+time convert to format: 0.275478
+time warm up 0.063434
+eps = 5.1778e-13 eps_counter = 5.1778e-05
+SpMV: calls = 100, time = 0.048297 s, GFLOPs = 77.645865, WS_standalone = 219.70 MB, WS_bicg = 236.06 MB
+error = 517.8       
+268096_268096_18482363_32275.1_14584_0.00359375_0.0326461,72,268096,268096,18750429,0.061899,517.78,50,215.604340,0.000000,0.000000,ARMPL,268096,268096,18750429,215.604340,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 862664 862664 22.29737 32.26675 normal random 0.2489 312.26562 1.33083 0.76017 14
+------------------------
+862664
+862664_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.068043
+Adding 862642 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.023564
+armpl optimize time = 0.390071
+time convert to format: 0.415099
+time warm up 0.062102
+eps = 9.28797e-13 eps_counter = 9.28797e-05
+SpMV: calls = 100, time = 0.063098 s, GFLOPs = 63.714733, WS_standalone = 246.49 MB, WS_bicg = 299.15 MB
+error = 928.8       
+862664_862664_19238563_217837_43950.3_0.000331912_0.014794,72,862664,862664,20101205,0.086930,928.797,50,233.330841,0.000000,0.000000,ARMPL,862664,862664,20101205,233.330841,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1634989 1634989 12.08148 38.32581 normal random 0.34006 410.37363 0.0671 0.07093 14
+------------------------
+1634989
+1634989_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.131235
+Adding 1634980 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0268436
+armpl optimize time = 0.358418
+time convert to format: 0.386803
+time warm up 0.065422
+eps = 1.27867e-12 eps_counter = 0.000127867
+SpMV: calls = 100, time = 0.123399 s, GFLOPs = 34.669143, WS_standalone = 275.98 MB, WS_bicg = 375.77 MB
+error = 770.7       
+1634989_1634989_19755749_547246_68824.7_2.2287e-05_5.85864e-05,72,1634989,1634989,21390729,0.165174,770.669,50,251.034458,0.000000,0.000000,ARMPL,1634989,1634989,21390729,251.034458,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 262144 262144 80.74153 529.35435 normal random 0.55185 607.89358 0.01987 0.02017 14
+------------------------
+262144
+262144_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.394131
+Adding 262076 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0247584
+armpl optimize time = 0.302788
+time convert to format: 0.329105
+time warm up 0.062748
+eps = 5.12e-13 eps_counter = 5.12e-05
+SpMV: calls = 100, time = 0.069693 s, GFLOPs = 61.545482, WS_standalone = 250.44 MB, WS_bicg = 266.44 MB
+error = 512         
+262144_262144_21184469_143708_4307.09_0.000559841_0.00360079,72,262144,262144,21446545,0.083439,512,50,246.436234,0.000000,0.000000,ARMPL,262144,262144,21446545,246.436234,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 4690002 4690002 4.33182 1.10616 normal random 0.00097 259.2215 0.55374 0.64858 14
+------------------------
+4690002
+4690002_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.069027
+Adding 4689996 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.033518
+armpl optimize time = 0.326915
+time convert to format: 0.362149
+time warm up 0.064975
+eps = 2.16564e-12 eps_counter = 0.000216564
+SpMV: calls = 100, time = 0.099443 s, GFLOPs = 47.184608, WS_standalone = 357.94 MB, WS_bicg = 644.20 MB
+error = 0.000559    
+4690002_4690002_18770794_4545.47_2223.9_0.0231003_0.144287,72,4690002,4690002,23460790,0.254300,0.000559045,50,286.378376,0.000000,0.000000,ARMPL,4690002,4690002,23460790,286.378376,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 22283 22283 1107.106 1409.12161 normal random 0.93148 5.55386 0.48228 0.28206 14
+------------------------
+22283
+22283_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.247565
+Adding 21359 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0267708
+armpl optimize time = 0.307009
+time convert to format: 0.335676
+time warm up 0.064031
+eps = 1.49275e-13 eps_counter = 1.49275e-05
+SpMV: calls = 100, time = 0.043851 s, GFLOPs = 112.352092, WS_standalone = 282.34 MB, WS_bicg = 283.70 MB
+error = 149.3       
+22283_22283_24612398_19915.1_2549.84_0.0548255_0.0631209,72,22283,22283,24633757,0.055057,149.275,50,281.995983,0.000000,0.000000,ARMPL,22283,22283,24633757,281.995983,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 4194304 4194304 5.79998 1.33638 normal random 0.41968 2.83335 0.49373 0.48091 14
+------------------------
+4194304
+4194304_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.145050
+Adding 4194295 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0347044
+armpl optimize time = 0.409167
+time convert to format: 0.445711
+time warm up 0.067982
+eps = 2.048e-12 eps_counter = 0.0002048
+SpMV: calls = 100, time = 0.149223 s, GFLOPs = 39.137347, WS_standalone = 414.18 MB, WS_bicg = 670.18 MB
+error = 167.9       
+4194304_4194304_25006718_1.84131e+06_602399_0.0012981_0.035942,72,4194304,4194304,29201013,0.296518,167.892,50,350.179077,0.000000,0.000000,ARMPL,4194304,4194304,29201013,350.179077,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1437547 1911130 20.79451 4.14027 normal random 0.53797 17.39555 0.00012 0.00014 14
+------------------------
+1437547
+1437547_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.102576
+Adding 1437533 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0330313
+armpl optimize time = 0.408717
+time convert to format: 0.444029
+
+	ERROR
+[tid 3582580] bench_bicg.cpp
+ => bench(): line [659]
+      >  the matrix must be square
+      >  errno [11]: Resource temporarily unavailable
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 39850  Sensor 2 42850  asic 62000 asic 62000 
+File: 2601977 2601977 13.92535 96.4949 normal random 0.24016 2738.46363 0.00309 0.11658 14
+------------------------
+2601977
+2601977_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.213734
+Adding 2601968 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0504179
+armpl optimize time = 1.04733
+time convert to format: 1.100527
+time warm up 0.065709
+eps = 1.61306e-12 eps_counter = 0.000161306
+SpMV: calls = 100, time = 0.229154 s, GFLOPs = 33.908883, WS_standalone = 494.25 MB, WS_bicg = 653.06 MB
+error = 1613        
+2601977_2601977_36249873_619293_64604.1_2.26539e-05_0.000136708,72,2601977,2601977,38851841,0.307062,1613.06,50,454.549793,0.000000,0.000000,ARMPL,2601977,2601977,38851841,454.549793,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1200611 1200611 31.867 11.44845 normal random 0.54995 3.73224 0.05017 0.16735 14
+------------------------
+1200611
+1200611_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.188142
+Adding 1200571 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0462095
+armpl optimize time = 0.581862
+time convert to format: 0.630921
+time warm up 0.065750
+eps = 1.09572e-12 eps_counter = 0.000109572
+SpMV: calls = 100, time = 0.202225 s, GFLOPs = 39.027356, WS_standalone = 474.50 MB, WS_bicg = 547.78 MB
+error = 670.7       
+1200611_1200611_38260873_654922_35802.3_4.86674e-05_1.6426e-05,72,1200611,1200611,39461444,0.239494,670.674,50,456.180359,0.000000,0.000000,ARMPL,1200611,1200611,39461444,456.180359,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 952203 952203 48.85773 8.3626 normal random 0.20421 0.576 1.79674 0.90605 14
+------------------------
+952203
+952203_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.101822
+Adding 952158 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0582091
+armpl optimize time = 0.624029
+time convert to format: 0.685512
+time warm up 0.061669
+eps = 9.75809e-13 eps_counter = 9.75809e-05
+SpMV: calls = 100, time = 0.164921 s, GFLOPs = 57.556271, WS_standalone = 561.31 MB, WS_bicg = 619.43 MB
+error = 637.3       
+952203_952203_46508902_177025_68070.3_0.0030512_0.051562,72,952203,952203,47461060,0.196355,637.32,50,546.781097,0.000000,0.000000,ARMPL,952203,952203,47461060,546.781097,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 1157456 1157456 41.93589 16.14859 normal random 0.5105 1.13613 0.8487 0.54912 14
+------------------------
+1157456
+1157456_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.243852
+Adding 1157417 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0600378
+armpl optimize time = 0.63426
+time convert to format: 0.697396
+time warm up 0.066906
+eps = 1.07585e-12 eps_counter = 0.000107585
+SpMV: calls = 100, time = 0.191922 s, GFLOPs = 51.788482, WS_standalone = 590.81 MB, WS_bicg = 661.46 MB
+error = 1076        
+1157456_1157456_48539219_552038_81207.1_7.66282e-05_2.70446e-05,72,1157456,1157456,49696636,0.229271,1075.85,50,573.148212,0.000000,0.000000,ARMPL,1157456,1157456,49696636,573.148212,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 62000 asic 62000 
+File: 5558326 5558326 10.70903 1673.16007 normal random 0.50252 120504.84964 1.06533 0.94277 14
+------------------------
+5558326
+5558326_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 2.281086
+Adding 5558323 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0891603
+armpl optimize time = 4.75126
+time convert to format: 4.844487
+time warm up 0.067957
+eps = 2.35761e-12 eps_counter = 0.000235761
+SpMV: calls = 100, time = 0.335023 s, GFLOPs = 39.243711, WS_standalone = 858.33 MB, WS_bicg = 1197.58 MB
+error = 1163        
+5558326_5558326_60179412_1.95752e+06_1.19783e+06_0.0347856_0.1832,72,5558326,5558326,65737735,0.537627,1163.13,50,773.512009,0.000000,0.000000,ARMPL,5558326,5558326,65737735,773.512009,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 61000 asic 61000 
+File: 4847571 4847571 14.23265 46.90436 normal random 0.34698 1424.80633 0.28427 0.28178 14
+------------------------
+4847571
+4847571_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.309712
+Adding 4847558 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.090459
+armpl optimize time = 0.657326
+time convert to format: 0.752615
+time warm up 0.072579
+eps = 2.20172e-12 eps_counter = 0.000220172
+SpMV: calls = 100, time = 0.390513 s, GFLOPs = 37.793527, WS_standalone = 936.97 MB, WS_bicg = 1232.84 MB
+error = 2202        
+4847571_4847571_68946667_1.68179e+06_194915_8.57214e-06_2.40508e-05,72,4847571,4847571,73794225,0.557151,2201.72,50,862.999905,0.000000,0.000000,ARMPL,4847571,4847571,73794225,862.999905,1.000000
+Temps: Composite 25850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 61000 asic 61000 
+File: 986703 986703 72.63211 11.0673 normal random 0.01817 0.11521 1.76984 0.91514 14
+------------------------
+986703
+986703_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.148893
+Adding 986623 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0935639
+armpl optimize time = 0.660919
+time convert to format: 0.759339
+time warm up 0.064056
+eps = 9.93329e-13 eps_counter = 9.93329e-05
+SpMV: calls = 100, time = 0.248949 s, GFLOPs = 58.352406, WS_standalone = 850.05 MB, WS_bicg = 910.27 MB
+error = 856.8       
+986703_986703_71647231_15189.1_5110.66_0.0058097_0.0115474,72,986703,986703,72633854,0.287014,856.847,50,834.992470,0.000000,0.000000,ARMPL,986703,986703,72633854,834.992470,1.000000
+Temps: Composite 24850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 61000 asic 61000 
+File: 943695 943695 82.2849 42.44526 normal random 0.62315 2.23492 1.5811 0.8197 14
+------------------------
+943695
+943695_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.274280
+Adding 943613 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.0922005
+armpl optimize time = 0.657045
+time convert to format: 0.754434
+time warm up 0.067013
+eps = 9.7144e-13 eps_counter = 9.7144e-05
+SpMV: calls = 100, time = 0.329564 s, GFLOPs = 47.695190, WS_standalone = 917.43 MB, WS_bicg = 975.02 MB
+error = 971.4       
+943695_943695_77649465_498177_131239_0.000190922_0.00398798,72,943695,943695,78593078,0.367393,971.44,50,903.026314,0.000000,0.000000,ARMPL,943695,943695,78593078,903.026314,1.000000
+Temps: Composite 24850 Composite 26850 Composite 41850 Sensor 1 38850  Sensor 2 41850  Composite 42850 Sensor 1 38850  Sensor 2 42850  asic 61000 asic 61000 
+File: 5154859 5154859 19.24389 5.73672 normal random 0.21196 1.00963 0.19755 0.79411 14
+------------------------
+5154859
+5154859_bicg_armpl_d.exe
+max threads 72
+time generate artificial matrix: 0.360404
+Adding 5154838 missing diagonal nonzeros
+armpl armpl_spmat_create_csr_d = 0.142151
+armpl optimize time = 0.901774
+time convert to format: 1.050580
+time warm up 0.069958
+eps = 2.27043e-12 eps_counter = 0.000227043
+SpMV: calls = 100, time = 0.427462 s, GFLOPs = 48.827299, WS_standalone = 1292.62 MB, WS_bicg = 1607.24 MB
+error = 1549        
+5154859_5154859_99204258_970942_179775_2.04037e-05_6.37525e-06,72,5154859,5154859,104359096,0.610062,1548.98,50,1213.959305,0.000000,0.000000,ARMPL,5154859,5154859,104359096,1213.959305,1.000000
